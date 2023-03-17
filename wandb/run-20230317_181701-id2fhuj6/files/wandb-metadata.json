@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-03-17T12:47:02.088624",
+    "startedAt": "2023-03-17T12:47:01.196190",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/maurya050/CS6910-Deep_Learning_Assignment-1.git",
+        "commit": "a74bc764de0ed08262585ca273a531625e253c10"
+    },
+    "email": "mauryashivam050@gmail.com",
+    "root": "C:/Users/Shivam Maurya/OneDrive/Desktop/IIT_MADRAS/Deep Learning/assignment 1/CS6910-Deep_Learning_Assignment-1",
+    "host": "LAPTOP-DEGE94G6",
+    "username": "Shivam Maurya",
+    "executable": "C:\\Anaconda\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1207.0,
+        "min": 0.0,
+        "max": 2918.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1207.0,
+            "min": 0.0,
+            "max": 2918.0
+        }
+    ],
+    "disk": {
+        "total": 833.1318321228027,
+        "used": 287.0476875305176
+    },
+    "memory": {
+        "total": 15.755851745605469
+    }
+}
