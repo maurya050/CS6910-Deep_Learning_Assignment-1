@@ -1,0 +1,357 @@
+2023-03-18 00:10:35,493 INFO    StreamThr :9832 [internal.py:wandb_internal():87] W&B internal server running at pid: 9832, started at: 2023-03-18 00:10:35.492795
+2023-03-18 00:10:35,495 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status
+2023-03-18 00:10:35,521 INFO    WriterThread:9832 [datastore.py:open_for_write():85] open: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\run-f1zt25yj.wandb
+2023-03-18 00:10:35,522 DEBUG   SenderThread:9832 [sender.py:send():336] send: header
+2023-03-18 00:10:35,560 DEBUG   SenderThread:9832 [sender.py:send():336] send: run
+2023-03-18 00:10:36,275 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: check_version
+2023-03-18 00:10:36,280 INFO    SenderThread:9832 [dir_watcher.py:__init__():216] watching files in: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files
+2023-03-18 00:10:36,281 INFO    SenderThread:9832 [sender.py:_start_run_threads():1067] run started: f1zt25yj with start time 1679078435.495726
+2023-03-18 00:10:36,281 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:10:36,283 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:10:36,283 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: check_version
+2023-03-18 00:10:36,395 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: run_start
+2023-03-18 00:10:36,405 DEBUG   HandlerThread:9832 [system_info.py:__init__():31] System info init
+2023-03-18 00:10:36,405 DEBUG   HandlerThread:9832 [system_info.py:__init__():46] System info init done
+2023-03-18 00:10:36,405 INFO    HandlerThread:9832 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 00:10:36,405 INFO    SystemMonitor:9832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 00:10:36,405 INFO    HandlerThread:9832 [system_monitor.py:probe():172] Collecting system info
+2023-03-18 00:10:36,409 INFO    SystemMonitor:9832 [interfaces.py:start():168] Started cpu
+2023-03-18 00:10:36,409 DEBUG   HandlerThread:9832 [system_info.py:probe():195] Probing system
+2023-03-18 00:10:36,409 INFO    SystemMonitor:9832 [interfaces.py:start():168] Started disk
+2023-03-18 00:10:36,410 INFO    SystemMonitor:9832 [interfaces.py:start():168] Started memory
+2023-03-18 00:10:36,418 INFO    SystemMonitor:9832 [interfaces.py:start():168] Started network
+2023-03-18 00:10:36,418 DEBUG   HandlerThread:9832 [system_info.py:_probe_git():180] Probing git
+2023-03-18 00:10:36,490 DEBUG   HandlerThread:9832 [system_info.py:_probe_git():188] Probing git done
+2023-03-18 00:10:36,491 DEBUG   HandlerThread:9832 [system_info.py:probe():241] Probing system done
+2023-03-18 00:10:36,491 DEBUG   HandlerThread:9832 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-03-17T18:40:36.409549', 'startedAt': '2023-03-17T18:40:35.460723', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/maurya050/CS6910-Deep_Learning_Assignment-1.git', 'commit': 'c0a5c95c1f5680a57550fbc95aef58afe4637f95'}, 'email': 'mauryashivam050@gmail.com', 'root': 'C:/Users/Shivam Maurya/OneDrive/Desktop/IIT_MADRAS/Deep Learning/assignment 1/CS6910-Deep_Learning_Assignment-1', 'host': 'LAPTOP-DEGE94G6', 'username': 'Shivam Maurya', 'executable': 'C:\\Anaconda\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2918.0, 'min': 0.0, 'max': 2918.0}, 'cpu_freq_per_core': [{'current': 2918.0, 'min': 0.0, 'max': 2918.0}], 'disk': {'total': 833.1318321228027, 'used': 287.1033020019531}, 'memory': {'total': 15.755851745605469}}
+2023-03-18 00:10:36,491 INFO    HandlerThread:9832 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-18 00:10:36,491 INFO    HandlerThread:9832 [system_monitor.py:probe():185] Publishing system info
+2023-03-18 00:10:36,491 DEBUG   HandlerThread:9832 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-18 00:10:36,492 DEBUG   HandlerThread:9832 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-18 00:10:36,492 DEBUG   HandlerThread:9832 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-18 00:10:37,283 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\requirements.txt
+2023-03-18 00:10:37,284 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\conda-environment.yaml
+2023-03-18 00:10:37,284 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:10:45,128 DEBUG   HandlerThread:9832 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-18 00:10:45,130 INFO    HandlerThread:9832 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-18 00:10:45,149 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:10:45,149 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:10:45,150 DEBUG   SenderThread:9832 [sender.py:send():336] send: files
+2023-03-18 00:10:45,150 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-18 00:10:45,173 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-18 00:10:45,173 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: stop_status
+2023-03-18 00:10:45,386 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\conda-environment.yaml
+2023-03-18 00:10:45,386 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-metadata.json
+2023-03-18 00:10:45,733 DEBUG   SenderThread:9832 [sender.py:send():336] send: telemetry
+2023-03-18 00:10:45,734 DEBUG   SenderThread:9832 [sender.py:send():336] send: telemetry
+2023-03-18 00:10:45,735 DEBUG   SenderThread:9832 [sender.py:send():336] send: run
+2023-03-18 00:10:46,061 INFO    wandb-upload_0:9832 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpdku_995uwandb\nvmvx2y6-wandb-metadata.json
+2023-03-18 00:10:46,109 INFO    SenderThread:9832 [sender.py:send_run():944] updated run: f1zt25yj
+2023-03-18 00:10:46,402 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\config.yaml
+2023-03-18 00:10:46,403 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\output.log
+2023-03-18 00:10:47,113 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:10:48,424 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\output.log
+2023-03-18 00:10:52,153 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:10:57,158 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:00,174 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:02,205 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:05,195 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:07,227 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:07,601 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\config.yaml
+2023-03-18 00:11:10,247 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:12,625 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:15,292 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:16,283 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:11:16,285 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:11:16,286 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:11:16,288 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:11:16,691 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:11:18,293 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:20,308 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:23,335 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:25,354 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:28,367 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:30,391 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:33,431 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:35,460 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:36,425 DEBUG   SystemMonitor:9832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 00:11:36,427 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:11:38,441 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:40,485 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:43,494 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:44,902 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:11:44,904 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:11:44,904 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:11:44,905 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:11:45,009 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:11:45,556 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:48,958 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:50,597 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:53,991 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:11:55,647 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:11:59,037 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:00,689 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:04,075 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:05,701 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:06,429 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:12:09,457 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:10,744 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:12,698 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:12:12,700 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:12:12,701 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:12:12,702 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:12:13,260 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:12:14,715 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:15,775 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:19,783 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:20,826 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:24,838 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:25,883 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:29,895 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:30,938 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:34,945 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:35,991 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:36,431 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:12:40,473 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:41,022 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:41,931 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:12:41,933 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:12:41,933 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:12:41,935 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:12:42,583 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:12:45,955 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:46,048 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:50,969 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:51,075 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:12:55,984 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:12:56,090 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:01,001 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:01,107 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:06,030 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:06,136 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:06,440 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:13:11,207 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:11,508 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:13,394 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:13:13,396 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:13:13,396 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:13:13,396 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:13:13,810 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:13:16,249 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:17,412 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:21,320 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:22,458 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:26,356 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:27,478 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:31,376 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:32,509 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:36,444 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:36,444 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:13:38,447 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:41,489 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:42,825 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:13:42,827 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:13:42,827 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:13:42,828 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:13:43,159 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:13:43,843 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:46,541 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:48,886 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:51,590 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:53,932 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:13:56,604 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:13:58,951 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:01,625 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:03,998 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:06,452 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:14:06,679 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:09,497 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:11,726 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:12,678 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:14:12,680 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:14:12,681 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:14:12,681 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:14:13,437 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:14:14,708 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:16,784 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:19,749 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:21,826 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:24,793 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:26,882 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:29,837 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:31,927 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:34,891 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:36,454 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:14:36,970 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:40,486 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:41,600 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:14:41,601 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:14:41,601 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:14:41,602 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:14:41,745 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:14:42,031 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:45,652 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:47,074 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:50,732 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:52,106 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:14:55,782 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:14:57,174 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:00,826 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:02,205 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:05,866 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:06,455 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:15:07,273 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:10,489 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:15:10,490 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:15:10,491 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:15:10,491 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:15:11,061 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:15:11,503 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:12,319 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:16,569 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:17,371 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:21,598 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:22,416 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:26,641 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:27,459 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:31,675 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:32,489 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:36,462 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:15:37,475 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:37,521 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:39,333 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:15:39,334 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:15:39,335 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:15:39,337 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 00:15:39,340 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:15:39,343 DEBUG   SenderThread:9832 [sender.py:send():336] send: history
+2023-03-18 00:15:39,343 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 00:15:39,344 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:15:39,345 DEBUG   SenderThread:9832 [sender.py:send():336] send: telemetry
+2023-03-18 00:15:39,345 DEBUG   SenderThread:9832 [sender.py:send():336] send: exit
+2023-03-18 00:15:39,345 INFO    SenderThread:9832 [sender.py:send_exit():559] handling exit code: 0
+2023-03-18 00:15:39,345 INFO    SenderThread:9832 [sender.py:send_exit():561] handling runtime: 302
+2023-03-18 00:15:39,346 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:15:39,346 INFO    SenderThread:9832 [sender.py:send_exit():567] send defer
+2023-03-18 00:15:39,347 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,347 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-18 00:15:39,347 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,347 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-18 00:15:39,347 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 1
+2023-03-18 00:15:39,348 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,348 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-18 00:15:39,348 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,348 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-18 00:15:39,348 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 2
+2023-03-18 00:15:39,348 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,349 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-18 00:15:39,349 INFO    HandlerThread:9832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 00:15:39,350 DEBUG   SystemMonitor:9832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 00:15:39,350 DEBUG   SystemMonitor:9832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 00:15:39,350 INFO    HandlerThread:9832 [interfaces.py:finish():175] Joined cpu
+2023-03-18 00:15:39,351 INFO    HandlerThread:9832 [interfaces.py:finish():175] Joined disk
+2023-03-18 00:15:39,351 INFO    HandlerThread:9832 [interfaces.py:finish():175] Joined memory
+2023-03-18 00:15:39,351 INFO    HandlerThread:9832 [interfaces.py:finish():175] Joined network
+2023-03-18 00:15:39,352 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,352 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-18 00:15:39,352 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 3
+2023-03-18 00:15:39,352 DEBUG   SenderThread:9832 [sender.py:send():336] send: stats
+2023-03-18 00:15:39,352 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,352 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-18 00:15:39,353 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,353 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-18 00:15:39,353 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 4
+2023-03-18 00:15:39,353 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,353 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-18 00:15:39,354 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,354 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-18 00:15:39,354 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 5
+2023-03-18 00:15:39,354 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,354 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-18 00:15:39,355 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:15:39,356 DEBUG   SenderThread:9832 [sender.py:send():336] send: summary
+2023-03-18 00:15:39,357 INFO    SenderThread:9832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 00:15:39,358 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,358 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-18 00:15:39,358 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 6
+2023-03-18 00:15:39,358 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,358 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-18 00:15:39,359 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,359 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-18 00:15:39,363 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 00:15:39,965 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 7
+2023-03-18 00:15:39,966 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:39,966 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-18 00:15:39,967 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:39,967 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-18 00:15:40,356 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-18 00:15:40,371 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\config.yaml
+2023-03-18 00:15:40,372 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:15:41,386 INFO    Thread-17 :9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\output.log
+2023-03-18 00:15:43,371 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 8
+2023-03-18 00:15:43,371 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: poll_exit
+2023-03-18 00:15:43,372 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:43,372 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-18 00:15:43,373 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:43,373 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-18 00:15:43,373 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 9
+2023-03-18 00:15:43,373 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:43,373 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-18 00:15:43,374 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:43,374 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-18 00:15:43,374 INFO    SenderThread:9832 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-18 00:15:43,402 INFO    SenderThread:9832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\output.log
+2023-03-18 00:15:43,403 INFO    SenderThread:9832 [dir_watcher.py:finish():392] scan: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files
+2023-03-18 00:15:43,403 INFO    SenderThread:9832 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\conda-environment.yaml conda-environment.yaml
+2023-03-18 00:15:43,404 INFO    SenderThread:9832 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\config.yaml config.yaml
+2023-03-18 00:15:43,411 INFO    SenderThread:9832 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\output.log output.log
+2023-03-18 00:15:43,412 INFO    SenderThread:9832 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\requirements.txt requirements.txt
+2023-03-18 00:15:43,419 INFO    SenderThread:9832 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-metadata.json wandb-metadata.json
+2023-03-18 00:15:43,424 INFO    SenderThread:9832 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json wandb-summary.json
+2023-03-18 00:15:43,427 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 10
+2023-03-18 00:15:43,433 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:43,433 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-18 00:15:43,438 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:43,439 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-18 00:15:43,440 INFO    SenderThread:9832 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-18 00:15:44,305 INFO    wandb-upload_0:9832 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\conda-environment.yaml
+2023-03-18 00:15:44,383 INFO    wandb-upload_2:9832 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\output.log
+2023-03-18 00:15:44,405 INFO    wandb-upload_1:9832 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\config.yaml
+2023-03-18 00:15:44,428 INFO    wandb-upload_3:9832 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\requirements.txt
+2023-03-18 00:15:44,864 INFO    wandb-upload_4:9832 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\files\wandb-summary.json
+2023-03-18 00:15:45,070 INFO    Thread-16 :9832 [sender.py:transition_state():587] send defer: 11
+2023-03-18 00:15:45,070 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:45,071 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-18 00:15:45,071 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:45,071 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-18 00:15:45,072 INFO    SenderThread:9832 [file_pusher.py:join():167] waiting for file pusher
+2023-03-18 00:15:45,072 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 12
+2023-03-18 00:15:45,072 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:45,072 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-18 00:15:45,073 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:45,073 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-18 00:15:45,389 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 00:15:45,953 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 13
+2023-03-18 00:15:45,953 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:45,954 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-18 00:15:45,954 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:45,954 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-18 00:15:45,955 INFO    SenderThread:9832 [sender.py:transition_state():587] send defer: 14
+2023-03-18 00:15:45,955 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 00:15:45,955 INFO    HandlerThread:9832 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-18 00:15:45,956 DEBUG   SenderThread:9832 [sender.py:send():336] send: final
+2023-03-18 00:15:45,956 DEBUG   SenderThread:9832 [sender.py:send():336] send: footer
+2023-03-18 00:15:45,956 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: defer
+2023-03-18 00:15:45,956 INFO    SenderThread:9832 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-18 00:15:45,958 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-18 00:15:45,958 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: server_info
+2023-03-18 00:15:45,959 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-18 00:15:45,959 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-18 00:15:45,960 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: poll_exit
+2023-03-18 00:15:45,961 DEBUG   SenderThread:9832 [sender.py:send_request():363] send_request: server_info
+2023-03-18 00:15:46,615 DEBUG   HandlerThread:9832 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-18 00:15:46,615 INFO    HandlerThread:9832 [handler.py:finish():841] shutting down handler
+2023-03-18 00:15:46,969 INFO    WriterThread:9832 [datastore.py:close():299] close: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_001035-f1zt25yj\run-f1zt25yj.wandb
+2023-03-18 00:15:47,623 INFO    SenderThread:9832 [sender.py:finish():1493] shutting down sender
+2023-03-18 00:15:47,623 INFO    SenderThread:9832 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-18 00:15:47,623 INFO    SenderThread:9832 [file_pusher.py:join():167] waiting for file pusher
