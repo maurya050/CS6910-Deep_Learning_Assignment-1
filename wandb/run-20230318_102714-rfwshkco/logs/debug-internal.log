@@ -1,0 +1,441 @@
+2023-03-18 10:27:14,267 INFO    StreamThr :24612 [internal.py:wandb_internal():87] W&B internal server running at pid: 24612, started at: 2023-03-18 10:27:14.267619
+2023-03-18 10:27:14,267 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status
+2023-03-18 10:27:14,279 INFO    WriterThread:24612 [datastore.py:open_for_write():85] open: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\run-rfwshkco.wandb
+2023-03-18 10:27:14,279 DEBUG   SenderThread:24612 [sender.py:send():336] send: header
+2023-03-18 10:27:14,326 DEBUG   SenderThread:24612 [sender.py:send():336] send: run
+2023-03-18 10:27:15,017 INFO    SenderThread:24612 [dir_watcher.py:__init__():216] watching files in: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files
+2023-03-18 10:27:15,017 INFO    SenderThread:24612 [sender.py:_start_run_threads():1067] run started: rfwshkco with start time 1679115434.267619
+2023-03-18 10:27:15,017 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:15,017 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:15,017 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: check_version
+2023-03-18 10:27:15,017 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: check_version
+2023-03-18 10:27:15,095 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: run_start
+2023-03-18 10:27:15,111 DEBUG   HandlerThread:24612 [system_info.py:__init__():31] System info init
+2023-03-18 10:27:15,111 DEBUG   HandlerThread:24612 [system_info.py:__init__():46] System info init done
+2023-03-18 10:27:15,111 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:15,111 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:15,111 INFO    HandlerThread:24612 [system_monitor.py:probe():172] Collecting system info
+2023-03-18 10:27:15,111 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:15,111 DEBUG   HandlerThread:24612 [system_info.py:probe():195] Probing system
+2023-03-18 10:27:15,111 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:15,111 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:27:15,122 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started network
+2023-03-18 10:27:15,122 DEBUG   HandlerThread:24612 [system_info.py:_probe_git():180] Probing git
+2023-03-18 10:27:15,193 DEBUG   HandlerThread:24612 [system_info.py:_probe_git():188] Probing git done
+2023-03-18 10:27:15,193 DEBUG   HandlerThread:24612 [system_info.py:probe():241] Probing system done
+2023-03-18 10:27:15,199 DEBUG   HandlerThread:24612 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-03-18T04:57:15.111277', 'startedAt': '2023-03-18T04:57:14.247940', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/maurya050/CS6910-Deep_Learning_Assignment-1.git', 'commit': 'c0a5c95c1f5680a57550fbc95aef58afe4637f95'}, 'email': 'mauryashivam050@gmail.com', 'root': 'C:/Users/Shivam Maurya/OneDrive/Desktop/IIT_MADRAS/Deep Learning/assignment 1/CS6910-Deep_Learning_Assignment-1', 'host': 'LAPTOP-DEGE94G6', 'username': 'Shivam Maurya', 'executable': 'C:\\Anaconda\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2918.0, 'min': 0.0, 'max': 2918.0}, 'cpu_freq_per_core': [{'current': 2918.0, 'min': 0.0, 'max': 2918.0}], 'disk': {'total': 833.1318321228027, 'used': 287.3727684020996}, 'memory': {'total': 15.755851745605469}}
+2023-03-18 10:27:15,199 INFO    HandlerThread:24612 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-18 10:27:15,199 INFO    HandlerThread:24612 [system_monitor.py:probe():185] Publishing system info
+2023-03-18 10:27:15,199 DEBUG   HandlerThread:24612 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-18 10:27:15,199 DEBUG   HandlerThread:24612 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-18 10:27:15,199 DEBUG   HandlerThread:24612 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-18 10:27:16,039 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\requirements.txt
+2023-03-18 10:27:16,039 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\conda-environment.yaml
+2023-03-18 10:27:16,039 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\wandb-summary.json
+2023-03-18 10:27:23,614 DEBUG   HandlerThread:24612 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-18 10:27:23,614 INFO    HandlerThread:24612 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-18 10:27:23,630 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:23,630 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:27:23,645 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:23,645 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-18 10:27:23,668 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-18 10:27:23,669 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: stop_status
+2023-03-18 10:27:23,669 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:23,669 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:23,669 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:23,669 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:23,669 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:23,669 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:23,669 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:23,669 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:23,677 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:27:23,677 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined network
+2023-03-18 10:27:23,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:23,683 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:23,683 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:23,683 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:23,693 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:23,695 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:23,695 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:27:23,702 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started network
+2023-03-18 10:27:23,978 DEBUG   SenderThread:24612 [sender.py:send():336] send: telemetry
+2023-03-18 10:27:23,978 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:24,102 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\conda-environment.yaml
+2023-03-18 10:27:24,102 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\wandb-metadata.json
+2023-03-18 10:27:24,574 INFO    wandb-upload_0:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\dbdk4cn0-wandb-metadata.json
+2023-03-18 10:27:25,997 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:31,032 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:31,806 DEBUG   SenderThread:24612 [sender.py:send():336] send: telemetry
+2023-03-18 10:27:32,274 DEBUG   SenderThread:24612 [sender.py:send():336] send: telemetry
+2023-03-18 10:27:35,213 DEBUG   SenderThread:24612 [sender.py:send():336] send: telemetry
+2023-03-18 10:27:35,244 DEBUG   SenderThread:24612 [sender.py:send():336] send: telemetry
+2023-03-18 10:27:35,433 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:35,433 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:35,433 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:35,433 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:35,449 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:35,449 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:35,449 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:35,449 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:35,449 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:27:35,449 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined network
+2023-03-18 10:27:35,449 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:36,452 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:38,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:27:38,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:27:41,476 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:43,708 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:27:46,507 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:47,262 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\config.yaml
+2023-03-18 10:27:48,551 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:48,551 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:48,551 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:48,551 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:48,555 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:48,555 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:48,555 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:48,555 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:48,555 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:48,555 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:48,555 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:48,555 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:48,555 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:48,740 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:27:49,007 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:49,007 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:49,007 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:49,007 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:49,007 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:49,007 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:49,007 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:27:49,022 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started network
+2023-03-18 10:27:49,210 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:49,210 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:49,210 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:49,210 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:49,210 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:49,210 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:49,210 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:49,210 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:49,210 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:27:49,210 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined network
+2023-03-18 10:27:49,210 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:49,447 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:49,447 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:49,447 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:49,447 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:49,463 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:49,464 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:49,464 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:49,464 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:49,464 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:49,464 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:27:49,464 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:49,464 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:49,464 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:49,464 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:27:49,464 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:49,464 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:49,464 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:49,935 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:49,935 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:49,948 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:49,948 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:49,948 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:49,950 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:49,950 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:27:49,955 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started network
+2023-03-18 10:27:50,440 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:50,440 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:50,440 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:50,440 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:50,440 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:50,440 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:50,440 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:50,440 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:50,440 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:27:50,440 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined network
+2023-03-18 10:27:50,440 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:50,455 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:50,455 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:50,455 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:50,455 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:50,463 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:50,463 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:50,463 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:50,463 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:50,463 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:50,463 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:50,463 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:50,463 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:50,463 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:50,463 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:50,463 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:51,006 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:51,006 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:51,006 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:51,006 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:51,021 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:51,021 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:51,021 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:51,021 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:51,021 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:51,021 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:27:51,021 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:51,021 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:51,021 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:51,021 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:51,021 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:51,021 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:27:51,021 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:51,901 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:27:51,901 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:27:51,901 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:27:51,901 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:27:51,916 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:27:51,916 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:27:51,916 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:27:51,916 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started network
+2023-03-18 10:27:52,042 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:52,766 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,766 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_0_7f9147937f711e4ba16e.png with policy now
+2023-03-18 10:27:52,781 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,782 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,782 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,782 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,797 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,797 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_1_ba8afe5093296b9da95d.png with policy now
+2023-03-18 10:27:52,797 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,797 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,797 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,797 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,813 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,813 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_2_cd8689e0f2a035303171.png with policy now
+2023-03-18 10:27:52,813 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,813 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,813 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,828 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,832 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,832 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,832 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_3_65989982ca9140b3494a.png with policy now
+2023-03-18 10:27:52,832 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,832 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,832 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,844 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,844 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_4_c994f021ba36204ca3c1.png with policy now
+2023-03-18 10:27:52,844 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,844 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,844 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,844 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,860 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,860 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_5_352ec8bcbb7f793c3857.png with policy now
+2023-03-18 10:27:52,860 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,860 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,860 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,860 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,876 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,876 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_6_c5a7eaa6a52ac0e794bb.png with policy now
+2023-03-18 10:27:52,876 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,876 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,876 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,876 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,891 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,891 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_7_4d144877c9093c197264.png with policy now
+2023-03-18 10:27:52,891 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,891 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,891 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,891 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,891 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,891 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_8_f9ae28233f32bf80214f.png with policy now
+2023-03-18 10:27:52,891 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,891 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,891 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,891 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:52,907 DEBUG   SenderThread:24612 [sender.py:send():336] send: files
+2023-03-18 10:27:52,907 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file media\images\Question1_9_adf48a208b1e9f1a3b47.png with policy now
+2023-03-18 10:27:52,907 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-18 10:27:52,907 DEBUG   SenderThread:24612 [sender.py:send():336] send: history
+2023-03-18 10:27:52,907 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: summary_record
+2023-03-18 10:27:52,907 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\wandb-summary.json
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_0_7f9147937f711e4ba16e.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_4_c994f021ba36204ca3c1.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_8_f9ae28233f32bf80214f.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_9_adf48a208b1e9f1a3b47.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_5_352ec8bcbb7f793c3857.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_3_65989982ca9140b3494a.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_1_ba8afe5093296b9da95d.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_6_c5a7eaa6a52ac0e794bb.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_7_4d144877c9093c197264.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_2_cd8689e0f2a035303171.png
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images
+2023-03-18 10:27:53,302 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media
+2023-03-18 10:27:53,585 INFO    wandb-upload_0:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\sjth93dx-media/images/Question1_0_7f9147937f711e4ba16e.png
+2023-03-18 10:27:53,616 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: pause
+2023-03-18 10:27:53,616 INFO    HandlerThread:24612 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-18 10:27:53,616 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:27:53,616 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:27:53,616 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:27:53,616 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:27:53,616 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:27:53,616 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:27:53,616 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:27:53,632 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined network
+2023-03-18 10:27:53,632 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:27:53,680 INFO    wandb-upload_2:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\i4ziobbs-media/images/Question1_2_cd8689e0f2a035303171.png
+2023-03-18 10:27:53,695 INFO    wandb-upload_1:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\1xyf8uct-media/images/Question1_1_ba8afe5093296b9da95d.png
+2023-03-18 10:27:53,759 INFO    wandb-upload_3:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\5kol4589-media/images/Question1_3_65989982ca9140b3494a.png
+2023-03-18 10:27:53,759 INFO    wandb-upload_5:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\rfpt1zdk-media/images/Question1_5_352ec8bcbb7f793c3857.png
+2023-03-18 10:27:53,774 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:27:53,790 INFO    wandb-upload_9:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\8a90l9ye-media/images/Question1_9_adf48a208b1e9f1a3b47.png
+2023-03-18 10:27:53,790 INFO    wandb-upload_8:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\ln9ivrb9-media/images/Question1_8_f9ae28233f32bf80214f.png
+2023-03-18 10:27:53,806 INFO    wandb-upload_4:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\5yfyv3t2-media/images/Question1_4_c994f021ba36204ca3c1.png
+2023-03-18 10:27:53,806 INFO    wandb-upload_6:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\y0hjt9wc-media/images/Question1_6_c5a7eaa6a52ac0e794bb.png
+2023-03-18 10:27:53,806 INFO    wandb-upload_7:24612 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpuqwz0e0rwandb\h44yhhns-media/images/Question1_7_4d144877c9093c197264.png
+2023-03-18 10:27:57,657 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:27:58,804 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:28:02,691 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:28:03,839 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 10:28:03,933 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: resume
+2023-03-18 10:28:03,933 INFO    HandlerThread:24612 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-18 10:28:03,933 INFO    HandlerThread:24612 [system_monitor.py:start():151] Starting system monitor
+2023-03-18 10:28:03,933 INFO    SystemMonitor:24612 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-18 10:28:03,949 DEBUG   SenderThread:24612 [sender.py:send():336] send: telemetry
+2023-03-18 10:28:03,949 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started cpu
+2023-03-18 10:28:03,949 DEBUG   SenderThread:24612 [sender.py:send():336] send: exit
+2023-03-18 10:28:03,953 INFO    SenderThread:24612 [sender.py:send_exit():559] handling exit code: 0
+2023-03-18 10:28:03,953 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started disk
+2023-03-18 10:28:03,953 INFO    SenderThread:24612 [sender.py:send_exit():561] handling runtime: 22
+2023-03-18 10:28:03,955 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started memory
+2023-03-18 10:28:03,964 INFO    SystemMonitor:24612 [interfaces.py:start():168] Started network
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_exit():567] send defer
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 1
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 2
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-18 10:28:03,965 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-18 10:28:03,965 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-18 10:28:03,965 DEBUG   SystemMonitor:24612 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined cpu
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined disk
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined memory
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [interfaces.py:finish():175] Joined network
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 3
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send():336] send: stats
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 4
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 5
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send():336] send: summary
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 6
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:03,965 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-18 10:28:03,965 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:03,965 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-18 10:28:03,965 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 10:28:04,311 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 7
+2023-03-18 10:28:04,311 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:04,311 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-18 10:28:04,311 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:04,311 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-18 10:28:04,311 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 8
+2023-03-18 10:28:04,311 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:04,311 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-18 10:28:04,311 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:04,311 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-18 10:28:04,311 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 9
+2023-03-18 10:28:04,311 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:04,311 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-18 10:28:04,311 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:04,311 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-18 10:28:04,311 INFO    SenderThread:24612 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-18 10:28:04,373 INFO    Thread-17 :24612 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\wandb-summary.json
+2023-03-18 10:28:04,373 INFO    SenderThread:24612 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\config.yaml
+2023-03-18 10:28:04,373 INFO    SenderThread:24612 [dir_watcher.py:finish():392] scan: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files
+2023-03-18 10:28:04,373 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\conda-environment.yaml conda-environment.yaml
+2023-03-18 10:28:04,373 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\config.yaml config.yaml
+2023-03-18 10:28:04,373 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\requirements.txt requirements.txt
+2023-03-18 10:28:04,373 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\wandb-metadata.json wandb-metadata.json
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\wandb-summary.json wandb-summary.json
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_0_7f9147937f711e4ba16e.png media\images\Question1_0_7f9147937f711e4ba16e.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_1_ba8afe5093296b9da95d.png media\images\Question1_1_ba8afe5093296b9da95d.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_2_cd8689e0f2a035303171.png media\images\Question1_2_cd8689e0f2a035303171.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_3_65989982ca9140b3494a.png media\images\Question1_3_65989982ca9140b3494a.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_4_c994f021ba36204ca3c1.png media\images\Question1_4_c994f021ba36204ca3c1.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_5_352ec8bcbb7f793c3857.png media\images\Question1_5_352ec8bcbb7f793c3857.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_6_c5a7eaa6a52ac0e794bb.png media\images\Question1_6_c5a7eaa6a52ac0e794bb.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_7_4d144877c9093c197264.png media\images\Question1_7_4d144877c9093c197264.png
+2023-03-18 10:28:04,389 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_8_f9ae28233f32bf80214f.png media\images\Question1_8_f9ae28233f32bf80214f.png
+2023-03-18 10:28:04,405 INFO    SenderThread:24612 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\media\images\Question1_9_adf48a208b1e9f1a3b47.png media\images\Question1_9_adf48a208b1e9f1a3b47.png
+2023-03-18 10:28:04,405 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 10
+2023-03-18 10:28:04,405 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:04,405 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-18 10:28:04,405 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:04,405 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-18 10:28:04,405 INFO    SenderThread:24612 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-18 10:28:04,953 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-18 10:28:04,953 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: poll_exit
+2023-03-18 10:28:05,222 INFO    wandb-upload_1:24612 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\config.yaml
+2023-03-18 10:28:05,222 INFO    wandb-upload_8:24612 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\wandb-summary.json
+2023-03-18 10:28:05,237 INFO    wandb-upload_5:24612 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\requirements.txt
+2023-03-18 10:28:05,250 INFO    wandb-upload_0:24612 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\files\conda-environment.yaml
+2023-03-18 10:28:05,457 INFO    Thread-16 :24612 [sender.py:transition_state():587] send defer: 11
+2023-03-18 10:28:05,457 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:05,457 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-18 10:28:05,457 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:05,457 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-18 10:28:05,457 INFO    SenderThread:24612 [file_pusher.py:join():167] waiting for file pusher
+2023-03-18 10:28:05,457 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 12
+2023-03-18 10:28:05,457 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:05,457 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-18 10:28:05,457 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:05,457 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-18 10:28:05,959 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-18 10:28:06,681 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 13
+2023-03-18 10:28:06,681 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: poll_exit
+2023-03-18 10:28:06,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:06,681 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-18 10:28:06,681 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:06,681 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-18 10:28:06,681 INFO    SenderThread:24612 [sender.py:transition_state():587] send defer: 14
+2023-03-18 10:28:06,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: defer
+2023-03-18 10:28:06,681 INFO    HandlerThread:24612 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-18 10:28:06,681 DEBUG   SenderThread:24612 [sender.py:send():336] send: final
+2023-03-18 10:28:06,681 DEBUG   SenderThread:24612 [sender.py:send():336] send: footer
+2023-03-18 10:28:06,681 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: defer
+2023-03-18 10:28:06,681 INFO    SenderThread:24612 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-18 10:28:06,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-18 10:28:06,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: server_info
+2023-03-18 10:28:06,681 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: poll_exit
+2023-03-18 10:28:06,681 DEBUG   SenderThread:24612 [sender.py:send_request():363] send_request: server_info
+2023-03-18 10:28:06,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-18 10:28:06,681 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-18 10:28:07,308 DEBUG   HandlerThread:24612 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-18 10:28:07,308 INFO    HandlerThread:24612 [handler.py:finish():841] shutting down handler
+2023-03-18 10:28:07,701 INFO    WriterThread:24612 [datastore.py:close():299] close: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230318_102714-rfwshkco\run-rfwshkco.wandb
+2023-03-18 10:28:08,314 INFO    SenderThread:24612 [sender.py:finish():1493] shutting down sender
+2023-03-18 10:28:08,315 INFO    SenderThread:24612 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-18 10:28:08,315 INFO    SenderThread:24612 [file_pusher.py:join():167] waiting for file pusher

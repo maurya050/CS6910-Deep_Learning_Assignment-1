@@ -1,0 +1,34 @@
+2023-03-17 23:13:43,913 INFO    StreamThr :19288 [internal.py:wandb_internal():87] W&B internal server running at pid: 19288, started at: 2023-03-17 23:13:43.912525
+2023-03-17 23:13:43,917 DEBUG   HandlerThread:19288 [handler.py:handle_request():144] handle_request: status
+2023-03-17 23:13:43,953 INFO    WriterThread:19288 [datastore.py:open_for_write():85] open: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230317_231343-43yfe3fr\run-43yfe3fr.wandb
+2023-03-17 23:13:43,954 DEBUG   SenderThread:19288 [sender.py:send():336] send: header
+2023-03-17 23:13:44,090 DEBUG   SenderThread:19288 [sender.py:send():336] send: run
+2023-03-17 23:13:44,851 INFO    SenderThread:19288 [dir_watcher.py:__init__():216] watching files in: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230317_231343-43yfe3fr\files
+2023-03-17 23:13:44,851 INFO    SenderThread:19288 [sender.py:_start_run_threads():1067] run started: 43yfe3fr with start time 1679075023.912524
+2023-03-17 23:13:44,851 DEBUG   SenderThread:19288 [sender.py:send_request():363] send_request: summary_record
+2023-03-17 23:13:44,852 INFO    SenderThread:19288 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-17 23:13:44,859 DEBUG   HandlerThread:19288 [handler.py:handle_request():144] handle_request: check_version
+2023-03-17 23:13:44,860 DEBUG   SenderThread:19288 [sender.py:send_request():363] send_request: check_version
+2023-03-17 23:13:45,293 DEBUG   HandlerThread:19288 [handler.py:handle_request():144] handle_request: run_start
+2023-03-17 23:13:45,315 DEBUG   HandlerThread:19288 [system_info.py:__init__():31] System info init
+2023-03-17 23:13:45,316 DEBUG   HandlerThread:19288 [system_info.py:__init__():46] System info init done
+2023-03-17 23:13:45,316 INFO    HandlerThread:19288 [system_monitor.py:start():151] Starting system monitor
+2023-03-17 23:13:45,317 INFO    SystemMonitor:19288 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-17 23:13:45,317 INFO    HandlerThread:19288 [system_monitor.py:probe():172] Collecting system info
+2023-03-17 23:13:45,317 DEBUG   HandlerThread:19288 [system_info.py:probe():195] Probing system
+2023-03-17 23:13:45,325 INFO    SystemMonitor:19288 [interfaces.py:start():168] Started cpu
+2023-03-17 23:13:45,326 INFO    SystemMonitor:19288 [interfaces.py:start():168] Started disk
+2023-03-17 23:13:45,328 INFO    SystemMonitor:19288 [interfaces.py:start():168] Started memory
+2023-03-17 23:13:45,339 INFO    SystemMonitor:19288 [interfaces.py:start():168] Started network
+2023-03-17 23:13:45,348 DEBUG   HandlerThread:19288 [system_info.py:_probe_git():180] Probing git
+2023-03-17 23:13:45,495 DEBUG   HandlerThread:19288 [system_info.py:_probe_git():188] Probing git done
+2023-03-17 23:13:45,495 DEBUG   HandlerThread:19288 [system_info.py:probe():241] Probing system done
+2023-03-17 23:13:45,495 DEBUG   HandlerThread:19288 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-03-17T17:43:45.317776', 'startedAt': '2023-03-17T17:43:43.874577', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/maurya050/CS6910-Deep_Learning_Assignment-1.git', 'commit': 'c0a5c95c1f5680a57550fbc95aef58afe4637f95'}, 'email': 'mauryashivam050@gmail.com', 'root': 'C:/Users/Shivam Maurya/OneDrive/Desktop/IIT_MADRAS/Deep Learning/assignment 1/CS6910-Deep_Learning_Assignment-1', 'host': 'LAPTOP-DEGE94G6', 'username': 'Shivam Maurya', 'executable': 'C:\\Anaconda\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2918.0, 'min': 0.0, 'max': 2918.0}, 'cpu_freq_per_core': [{'current': 2918.0, 'min': 0.0, 'max': 2918.0}], 'disk': {'total': 833.1318321228027, 'used': 287.09008026123047}, 'memory': {'total': 15.755851745605469}}
+2023-03-17 23:13:45,495 INFO    HandlerThread:19288 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-17 23:13:45,496 INFO    HandlerThread:19288 [system_monitor.py:probe():185] Publishing system info
+2023-03-17 23:13:45,496 DEBUG   HandlerThread:19288 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-17 23:13:45,497 DEBUG   HandlerThread:19288 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-17 23:13:45,498 DEBUG   HandlerThread:19288 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-17 23:13:45,855 INFO    Thread-17 :19288 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230317_231343-43yfe3fr\files\wandb-summary.json
+2023-03-17 23:13:45,856 INFO    Thread-17 :19288 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230317_231343-43yfe3fr\files\conda-environment.yaml
+2023-03-17 23:13:45,856 INFO    Thread-17 :19288 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230317_231343-43yfe3fr\files\requirements.txt

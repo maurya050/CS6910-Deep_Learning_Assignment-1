@@ -1,0 +1,5 @@
+C:\Users\Shivam Maurya\AppData\Local\Temp\ipykernel_26288\2821308850.py:10: RuntimeWarning: overflow encountered in exp
+  exponentials = np.exp(X) # softmax function
+C:\Users\Shivam Maurya\AppData\Local\Temp\ipykernel_26288\2821308850.py:11: RuntimeWarning: invalid value encountered in true_divide
+  return exponentials / np.sum(exponentials)
+ Training Loss:  nan  Validation Loss: nan  Training Accuracy:  0.1  Validation Accuracy: 0.1
