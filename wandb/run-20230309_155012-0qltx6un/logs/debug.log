@@ -1,0 +1,116 @@
+2023-03-09 15:50:12,451 INFO    Thread-46 :31048 [wandb_setup.py:_flush():68] Configure stats pid to 31048
+2023-03-09 15:50:12,451 INFO    Thread-46 :31048 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Shivam Maurya\.config\wandb\settings
+2023-03-09 15:50:12,451 INFO    Thread-46 :31048 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\settings
+2023-03-09 15:50:12,451 INFO    Thread-46 :31048 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'CS6910_Assignment_1', 'entity': 'cs22m083', 'root_dir': 'C:\\Users\\Shivam Maurya\\OneDrive\\Desktop\\IIT MADRAS\\Deep Learning\\assignment 1\\CS6910-Deep_Learning_Assignment-1', 'sweep_id': '9y2jkjce', 'run_id': '0qltx6un', 'sweep_param_path': 'C:\\Users\\Shivam Maurya\\OneDrive\\Desktop\\IIT MADRAS\\Deep Learning\\assignment 1\\CS6910-Deep_Learning_Assignment-1\\wandb\\sweep-9y2jkjce\\config-0qltx6un.yaml'}
+2023-03-09 15:50:12,452 INFO    Thread-46 :31048 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-09 15:50:12,454 INFO    Thread-46 :31048 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230309_155012-0qltx6un\logs\debug.log
+2023-03-09 15:50:12,454 INFO    Thread-46 :31048 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230309_155012-0qltx6un\logs\debug-internal.log
+2023-03-09 15:50:12,454 INFO    Thread-46 :31048 [wandb_init.py:init():532] calling init triggers
+2023-03-09 15:50:12,454 INFO    Thread-46 :31048 [wandb_init.py:init():538] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'gamma': 0.001, 'hidden_layers': [32, 64, 128], 'learning_rate': 0.01, 'optimizer': 'sgd', 'weight_decay': 0}
+config: {}
+2023-03-09 15:50:12,454 INFO    Thread-46 :31048 [wandb_init.py:init():554] re-initializing run, found existing run on stack: 0qltx6un
+2023-03-09 15:50:12,455 INFO    Thread-46 :31048 [wandb_run.py:_finish():1854] finishing run cs22m083/CS6910_Assignment_1/0qltx6un
+2023-03-09 15:50:12,455 INFO    Thread-46 :31048 [jupyter.py:save_history():449] not saving jupyter history
+2023-03-09 15:50:12,455 INFO    Thread-46 :31048 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-03-09 15:50:12,455 INFO    Thread-46 :31048 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-03-09 15:50:12,455 INFO    Thread-46 :31048 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-09 15:50:12,455 INFO    Thread-46 :31048 [wandb_run.py:_restore():2066] restore
+2023-03-09 15:50:12,455 INFO    Thread-46 :31048 [wandb_run.py:_restore():2072] restore done
+2023-03-09 15:50:17,394 INFO    Thread-46 :31048 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-09 15:50:17,395 INFO    Thread-46 :31048 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-09 15:50:17,398 INFO    Thread-46 :31048 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-03-09 15:50:17,401 INFO    Thread-46 :31048 [wandb_init.py:init():588] starting backend
+2023-03-09 15:50:17,401 INFO    Thread-46 :31048 [wandb_init.py:init():592] setting up manager
+2023-03-09 15:50:17,412 INFO    Thread-46 :31048 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-09 15:50:17,421 INFO    Thread-46 :31048 [wandb_init.py:init():599] backend started and connected
+2023-03-09 15:50:17,450 INFO    Thread-46 :31048 [wandb_run.py:_config_callback():1250] config_cb None None {'activation': 'relu', 'batch_size': 16, 'epochs': 5, 'gamma': 0.001, 'hidden_layers': [32, 64, 128], 'learning_rate': 0.01, 'optimizer': 'sgd', 'weight_decay': 0}
+2023-03-09 15:50:17,451 INFO    Thread-46 :31048 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-09 15:50:17,451 INFO    Thread-46 :31048 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-09 15:50:17,451 INFO    Thread-46 :31048 [wandb_init.py:init():687] updated telemetry
+2023-03-09 15:50:17,499 INFO    Thread-46 :31048 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-09 15:50:19,055 INFO    Thread-46 :31048 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-09 15:50:19,147 INFO    Thread-46 :31048 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-09 15:50:19,147 INFO    Thread-46 :31048 [wandb_init.py:init():775] starting run threads in backend
+2023-03-09 15:50:27,817 INFO    Thread-46 :31048 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-09 15:50:27,817 INFO    Thread-46 :31048 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-09 15:50:27,817 INFO    Thread-46 :31048 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-09 15:50:27,817 INFO    Thread-46 :31048 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-09 15:50:27,817 INFO    Thread-46 :31048 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-09 15:50:27,817 INFO    Thread-46 :31048 [wandb_run.py:_finish():1854] finishing run cs22m083/CS6910_Assignment_1/0qltx6un
+2023-03-09 15:50:27,817 ERROR   MainThread:31048 [pyagent.py:_run_jobs_from_queue():226] Run 0qltx6un errored: NameError("name 'var2' is not defined")
+2023-03-09 15:51:55,536 INFO    MainThread:31048 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-03-09 16:13:40,038 ERROR   Thread-50 :31048 [internal_api.py:execute():245] 502 response executing GraphQL.
+2023-03-09 16:13:40,038 ERROR   Thread-50 :31048 [internal_api.py:execute():246] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-03-09 19:02:03,426 ERROR   Thread-50 :31048 [internal_api.py:execute():245] 502 response executing GraphQL.
+2023-03-09 19:02:03,426 ERROR   Thread-50 :31048 [internal_api.py:execute():246] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-03-09 19:02:31,339 ERROR   Thread-50 :31048 [internal_api.py:execute():245] 502 response executing GraphQL.
+2023-03-09 19:02:31,339 ERROR   Thread-50 :31048 [internal_api.py:execute():246] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-03-09 19:14:43,879 ERROR   Thread-50 :31048 [internal_api.py:execute():245] 502 response executing GraphQL.
+2023-03-09 19:14:43,879 ERROR   Thread-50 :31048 [internal_api.py:execute():246] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-03-09 20:22:46,001 ERROR   Thread-50 :31048 [internal_api.py:execute():245] 502 response executing GraphQL.
+2023-03-09 20:22:46,001 ERROR   Thread-50 :31048 [internal_api.py:execute():246] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-03-09 20:30:57,454 ERROR   Thread-50 :31048 [internal_api.py:execute():245] 502 response executing GraphQL.
+2023-03-09 20:30:57,454 ERROR   Thread-50 :31048 [internal_api.py:execute():246] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-03-09 22:22:37,525 ERROR   Thread-50 :31048 [internal_api.py:execute():245] 404 response executing GraphQL.
+2023-03-09 22:22:37,525 ERROR   Thread-50 :31048 [internal_api.py:execute():246] {"errors":[{"message":"could not find agent jde3ll7k during agentHeartbeat","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}

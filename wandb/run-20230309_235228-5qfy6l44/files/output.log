@@ -1,0 +1,4 @@
+
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:47.191385, resuming normal operation.
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:47.191385, resuming normal operation.
+ Training Loss:  0.25725293404452165  Validation Loss: 0.25519755891697393  Training Accuracy:  0.6586166666666666  Validation Accuracy: 0.6561

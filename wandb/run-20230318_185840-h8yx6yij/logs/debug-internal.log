@@ -410,3 +410,6 @@
 2023-03-18 19:12:41,550 DEBUG   HandlerThread:28216 [handler.py:handle_request():144] handle_request: keepalive
 2023-03-18 19:12:43,842 DEBUG   HandlerThread:28216 [handler.py:handle_request():144] handle_request: status_report
 2023-03-18 19:12:46,571 DEBUG   HandlerThread:28216 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 19:12:48,899 DEBUG   HandlerThread:28216 [handler.py:handle_request():144] handle_request: status_report
+2023-03-18 19:12:51,628 DEBUG   HandlerThread:28216 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-18 19:12:53,915 DEBUG   HandlerThread:28216 [handler.py:handle_request():144] handle_request: status_report

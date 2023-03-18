@@ -1,0 +1,3 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: Visualizing heatmap.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.

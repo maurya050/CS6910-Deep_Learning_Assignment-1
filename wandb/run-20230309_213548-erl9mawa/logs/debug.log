@@ -1,0 +1,19 @@
+2023-03-09 21:35:48,839 INFO    Thread-21 :39484 [wandb_setup.py:_flush():68] Configure stats pid to 39484
+2023-03-09 21:35:48,839 INFO    Thread-21 :39484 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Shivam Maurya\.config\wandb\settings
+2023-03-09 21:35:48,839 INFO    Thread-21 :39484 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\settings
+2023-03-09 21:35:48,839 INFO    Thread-21 :39484 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'CS6910_Assignment_1', 'entity': 'cs22m083', 'root_dir': 'C:\\Users\\Shivam Maurya\\OneDrive\\Desktop\\IIT MADRAS\\Deep Learning\\assignment 1\\CS6910-Deep_Learning_Assignment-1', 'run_id': 'erl9mawa', 'sweep_param_path': 'C:\\Users\\Shivam Maurya\\OneDrive\\Desktop\\IIT MADRAS\\Deep Learning\\assignment 1\\CS6910-Deep_Learning_Assignment-1\\wandb\\sweep-q5y6euxc\\config-erl9mawa.yaml', 'sweep_id': 'q5y6euxc'}
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230309_213548-erl9mawa\logs\debug.log
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230309_213548-erl9mawa\logs\debug-internal.log
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001FE0885D130>
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:init():532] calling init triggers
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:init():538] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 32, 'epochs': 5, 'gamma': 0.001, 'hidden_layers': [32, 64, 128, 256], 'learning_rate': 0.005, 'optimizer': 'adam', 'weight_decay': 0.5}
+config: {'method': 'random', 'metric': {'goal': 'maximize', 'name': 'accuracy'}, 'parameters': {'activation': {'values': ['sigmoid', 'tanh', 'relu']}, 'batch_size': {'values': [16, 32, 64]}, 'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']}, 'hidden_layers': {'values': [[32, 64], [32, 64, 128], [32, 64, 128, 256]]}, 'epochs': {'values': [5, 10]}, 'weight_decay': {'values': [0.0, 0.0005, 0.5]}, 'gamma': {'values': [0.03, 0.0006, 0.001]}, 'learning_rate': {'values': [0.0001, 0.005, 0.0006, 0.01, 0.0003, 0.0005]}}}
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:init():588] starting backend
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:init():592] setting up manager
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-09 21:35:48,850 INFO    Thread-21 :39484 [wandb_init.py:init():599] backend started and connected
+2023-03-09 21:35:48,867 INFO    Thread-21 :39484 [wandb_run.py:_config_callback():1250] config_cb None None {'activation': 'relu', 'batch_size': 32, 'epochs': 5, 'gamma': 0.001, 'hidden_layers': [32, 64, 128, 256], 'learning_rate': 0.005, 'optimizer': 'adam', 'weight_decay': 0.5}
+2023-03-09 21:35:48,929 INFO    Thread-21 :39484 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-09 21:35:48,929 INFO    Thread-21 :39484 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-09 21:35:48,929 INFO    Thread-21 :39484 [wandb_init.py:init():687] updated telemetry

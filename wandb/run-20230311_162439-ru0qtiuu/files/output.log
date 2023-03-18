@@ -1,0 +1,5 @@
+C:\Users\Shivam Maurya\AppData\Local\Temp\ipykernel_43456\3689806899.py:11: RuntimeWarning: overflow encountered in exp
+  exponentials = np.exp(X)
+C:\Users\Shivam Maurya\AppData\Local\Temp\ipykernel_43456\3689806899.py:12: RuntimeWarning: invalid value encountered in true_divide
+  return exponentials / np.sum(exponentials)
+ Training Loss:  nan  Validation Loss: nan  Training Accuracy:  0.1  Validation Accuracy: 0.1

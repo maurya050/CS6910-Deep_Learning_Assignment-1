@@ -1,0 +1,3 @@
+C:\Users\Shivam Maurya\AppData\Local\Temp\ipykernel_35260\3689806899.py:12: RuntimeWarning: invalid value encountered in true_divide
+  return exponentials / np.sum(exponentials)
+ Training Loss:  nan  Validation Loss: nan  Training Accuracy:  0.1  Validation Accuracy: 0.1

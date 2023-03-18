@@ -1,0 +1,99 @@
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_setup.py:_flush():68] Configure stats pid to 26496
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Shivam Maurya\.config\wandb\settings
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\settings
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'CS6910_Assignment_1', 'entity': 'cs22m083', 'root_dir': 'C:\\Users\\Shivam Maurya\\OneDrive\\Desktop\\IIT_MADRAS\\Deep Learning\\assignment 1\\CS6910-Deep_Learning_Assignment-1', 'run_id': 'skwahggy', 'sweep_param_path': 'C:\\Users\\Shivam Maurya\\OneDrive\\Desktop\\IIT_MADRAS\\Deep Learning\\assignment 1\\CS6910-Deep_Learning_Assignment-1\\wandb\\sweep-eyzuiy8n\\config-skwahggy.yaml', 'sweep_id': 'eyzuiy8n'}
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_init.py:_log_setup():492] Logging user logs to C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230317_153126-skwahggy\logs\debug.log
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_init.py:_log_setup():493] Logging internal logs to C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230317_153126-skwahggy\logs\debug-internal.log
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000023B22DCAAC0>
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_init.py:init():532] calling init triggers
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_init.py:init():538] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'gamma': 0.03, 'hidden_layers': [32, 64, 128], 'initialization': 'Random', 'learning_rate': 0.0005, 'optimizer': 'rmsprop', 'weight_decay': 0.5}
+config: {}
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_init.py:init():588] starting backend
+2023-03-17 15:31:26,720 INFO    Thread-80 :26496 [wandb_init.py:init():592] setting up manager
+2023-03-17 15:31:26,736 INFO    Thread-80 :26496 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-17 15:31:26,751 INFO    Thread-80 :26496 [wandb_init.py:init():599] backend started and connected
+2023-03-17 15:31:26,783 INFO    Thread-80 :26496 [wandb_run.py:_config_callback():1250] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'gamma': 0.03, 'hidden_layers': [32, 64, 128], 'initialization': 'Random', 'learning_rate': 0.0005, 'optimizer': 'rmsprop', 'weight_decay': 0.5}
+2023-03-17 15:31:26,783 INFO    Thread-80 :26496 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-17 15:31:26,783 INFO    Thread-80 :26496 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-17 15:31:26,783 INFO    Thread-80 :26496 [wandb_init.py:init():687] updated telemetry
+2023-03-17 15:31:26,830 INFO    Thread-80 :26496 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-17 15:31:27,528 INFO    Thread-80 :26496 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-17 15:31:27,587 INFO    Thread-80 :26496 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.14.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-17 15:31:27,587 INFO    Thread-80 :26496 [wandb_init.py:init():775] starting run threads in backend
+2023-03-17 15:31:36,643 INFO    Thread-80 :26496 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-17 15:31:36,643 INFO    Thread-80 :26496 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-17 15:31:36,643 INFO    Thread-80 :26496 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-17 15:31:36,643 INFO    Thread-80 :26496 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-17 15:31:36,643 INFO    Thread-80 :26496 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-17 15:34:53,746 INFO    Thread-80 :26496 [wandb_run.py:_finish():1854] finishing run cs22m083/CS6910_Assignment_1/skwahggy
+2023-03-17 15:34:53,746 INFO    Thread-80 :26496 [jupyter.py:save_history():449] not saving jupyter history
+2023-03-17 15:34:53,746 INFO    Thread-80 :26496 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-03-17 15:34:53,746 INFO    Thread-80 :26496 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-03-17 15:34:53,746 INFO    Thread-80 :26496 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-17 15:34:53,746 INFO    Thread-80 :26496 [wandb_run.py:_restore():2066] restore
+2023-03-17 15:34:53,746 INFO    Thread-80 :26496 [wandb_run.py:_restore():2072] restore done
+2023-03-17 15:36:01,144 INFO    Thread-16 :26496 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Anaconda\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Anaconda\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Anaconda\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Anaconda\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000023B22E2F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Anaconda\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000023B22E2F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Anaconda\lib\site-packages\wandb\sdk\internal\internal_api.py", line 242, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Anaconda\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000023B22E2F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2023-03-17 15:42:27,614 INFO    Thread-80 :26496 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-17 15:42:27,614 INFO    Thread-80 :26496 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-17 15:42:27,629 INFO    Thread-80 :26496 [wandb_run.py:_footer_sync_info():3398] logging synced files

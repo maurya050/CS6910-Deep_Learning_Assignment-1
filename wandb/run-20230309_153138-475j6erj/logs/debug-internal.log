@@ -1,0 +1,54 @@
+2023-03-09 15:31:38,493 INFO    StreamThr :33884 [internal.py:wandb_internal():87] W&B internal server running at pid: 33884, started at: 2023-03-09 15:31:38.493352
+2023-03-09 15:31:38,493 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: status
+2023-03-09 15:31:38,505 INFO    WriterThread:33884 [datastore.py:open_for_write():85] open: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230309_153138-475j6erj\run-475j6erj.wandb
+2023-03-09 15:31:38,505 DEBUG   SenderThread:33884 [sender.py:send():336] send: header
+2023-03-09 15:31:38,537 DEBUG   SenderThread:33884 [sender.py:send():336] send: run
+2023-03-09 15:31:39,179 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:31:39,179 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:31:40,939 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:31:40,939 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:31:43,578 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:31:43,656 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:31:43,656 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:31:43,656 INFO    SenderThread:33884 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Anaconda\lib\site-packages\wandb\sdk\internal\internal_api.py", line 242, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Anaconda\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2023-03-09 15:31:48,606 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:31:48,858 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:31:48,858 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:31:52,818 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:31:52,818 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:31:53,636 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:31:57,936 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:31:57,936 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:31:58,654 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:03,675 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:08,708 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:13,732 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:17,504 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:32:17,504 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:32:18,762 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:23,789 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:28,815 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:32,473 ERROR   SenderThread:33884 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-03-09 15:32:32,473 ERROR   SenderThread:33884 [internal_api.py:execute():246] {"errors":[{"message":"run cs22m083/CS6910_Assignment_1/475j6erj was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-09 15:32:33,840 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-09 15:32:38,861 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: cancel
+2023-03-09 15:32:38,861 DEBUG   SenderThread:33884 [sender.py:send():345] Record cancelled: run
+2023-03-09 15:32:38,861 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: cancel
+2023-03-09 15:32:38,861 DEBUG   HandlerThread:33884 [handler.py:handle_request():144] handle_request: status_report
+2023-03-09 15:32:42,871 INFO    MainThread:33884 [internal.py:handle_exit():77] Internal process exited
+2023-03-09 15:32:42,871 INFO    MainThread:33884 [internal.py:handle_exit():77] Internal process exited
+2023-03-09 15:32:42,871 INFO    MainThread:33884 [internal.py:handle_exit():77] Internal process exited

@@ -1,0 +1,9 @@
+2023-03-09 21:35:48,850 INFO    StreamThr :35536 [internal.py:wandb_internal():87] W&B internal server running at pid: 35536, started at: 2023-03-09 21:35:48.850821
+2023-03-09 21:35:48,850 DEBUG   HandlerThread:35536 [handler.py:handle_request():144] handle_request: status
+2023-03-09 21:35:48,929 INFO    WriterThread:35536 [datastore.py:open_for_write():85] open: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230309_213548-erl9mawa\run-erl9mawa.wandb
+2023-03-09 21:35:48,929 DEBUG   SenderThread:35536 [sender.py:send():336] send: header
+2023-03-09 21:35:49,864 WARNING StreamThr :35536 [internal.py:is_dead():415] Internal process exiting, parent pid 39484 disappeared
+2023-03-09 21:35:49,864 ERROR   StreamThr :35536 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-03-09 21:35:49,943 INFO    WriterThread:35536 [datastore.py:close():299] close: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230309_213548-erl9mawa\run-erl9mawa.wandb
+2023-03-09 21:35:49,943 INFO    SenderThread:35536 [sender.py:finish():1493] shutting down sender
+2023-03-09 21:35:49,943 INFO    HandlerThread:35536 [handler.py:finish():841] shutting down handler

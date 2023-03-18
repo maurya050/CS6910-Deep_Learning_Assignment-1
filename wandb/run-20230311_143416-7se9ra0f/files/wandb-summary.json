@@ -1,0 +1,1 @@
+{"Training_accuracy": 0.7721, "Validation_accuracy": 0.763, "Training_loss": 0.6132167202589558, "Validation_loss": 0.6486985984457225, "Epoch": 10, "_timestamp": 1678526284.5567276, "_runtime": 828.2178137302399, "_step": 10, "Accuracy": 0.763, "_wandb": {"runtime": 827}}
