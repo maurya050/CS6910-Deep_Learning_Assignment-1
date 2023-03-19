@@ -30,3 +30,5 @@
   **Choices For Weight Initilization** (String Passed For selecting Weight Initializer)
   * 'Random' 
   * 'Xavier'
+  
+## For Running CS6910_Assignment1.ipynb File
