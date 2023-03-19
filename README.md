@@ -5,6 +5,8 @@
 * Project Name (wandb_project) default set to 'CS6910_Assignment_1'
 * Entity Name (wandb_entity) in project (CS6910_Assignment_1) default set to 'Shivam_Maurya'
 
+  ### String passed for selecting Function
+  
   **Choices For Loss Function**
   * 'squared_loss' : For Mean Square Error
   * 'cross_entropy' : For Cross Entropy
