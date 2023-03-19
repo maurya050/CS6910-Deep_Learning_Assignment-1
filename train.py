@@ -23,7 +23,7 @@ parser.add_argument('-we', '--wandb_entity' , help='Wandb Entity used to track e
 parser.add_argument('-d', '--dataset', help='choices: ["mnist", "fashion_mnist"]', type=str, default='fashion_mnist')
 parser.add_argument('-e', '--epochs', help="Number of epochs to train neural network.", type=int, default=10)
 parser.add_argument('-b', '--batch_size', help="Batch size used to train neural network.", type=int, default=64)
-parser.add_argument('-l','--loss', help = 'hoices: ["squared_loss", "cross_entropy"]' , type=str, default='cross_entropy')
+parser.add_argument('-l','--loss', help = 'choices: ["squared_loss", "cross_entropy"]' , type=str, default='cross_entropy')
 parser.add_argument('-o', '--optimizer', help = 'choices: ["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"]', type=str, default = 'nadam')
 parser.add_argument('-lr', '--learning_rate', help = 'Learning rate used to optimize model parameters', type=float, default=0.0005)
 parser.add_argument('-m', '--momentum', help='Momentum used by momentum and nag optimizers.',type=float, default=0.5)
