@@ -8,5 +8,12 @@ Assignment_1 submission for the course Fundamentals of Deep Learning (CS6910).
 **Choices For Loss Function**
 * 'squared_loss' : For Mean Square Error
 * 'cross_entropy' : For Cross Entropy
-    
+
+**Choices For Optimization Function**
+* 'sgd' : For Stochastic Gradient Descent
+* 'momentum' : For Momentum Based Gradient Descent
+* 'nag' : For Nesterov Accelerated Gradient Descent
+* 'rmsprop' : For Rmsprop
+* 'adam' : For Adam
+* 'nadam' : For Nadam
 
