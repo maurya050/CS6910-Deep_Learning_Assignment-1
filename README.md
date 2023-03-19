@@ -24,3 +24,7 @@
 
   **Choices For Output-Activation Function**
   * 'softmax' : SoftmaxFunction
+  
+  **Choices For Weight Initilization**
+  * 'Random' 
+  * 'Xavier'
