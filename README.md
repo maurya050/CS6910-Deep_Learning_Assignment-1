@@ -5,15 +5,22 @@ Assignment_1 submission for the course Fundamentals of Deep Learning (CS6910).
 * Project Name (wandb_project) default set to 'CS6910_Assignment_1'
 * Entity Name (wandb_entity) in project (CS6910_Assignment_1) default set to 'Shivam_Maurya'
 
-**Choices For Loss Function**
-* 'squared_loss' : For Mean Square Error
-* 'cross_entropy' : For Cross Entropy
+  **Choices For Loss Function**
+  * 'squared_loss' : For Mean Square Error
+  * 'cross_entropy' : For Cross Entropy
 
-**Choices For Optimization Function**
-* 'sgd' : For Stochastic Gradient Descent
-* 'momentum' : For Momentum Based Gradient Descent
-* 'nag' : For Nesterov Accelerated Gradient Descent
-* 'rmsprop' : For Rmsprop
-* 'adam' : For Adam
-* 'nadam' : For Nadam
+  **Choices For Optimization Function**
+  * 'sgd' : For Stochastic Gradient Descent
+  * 'momentum' : For Momentum Based Gradient Descent
+  * 'nag' : For Nesterov Accelerated Gradient Descent
+  * 'rmsprop' : For Rmsprop
+  * 'adam' : For Adam
+  * 'nadam' : For Nadam
 
+  **Choices For Activation Function**
+  * 'sigmoid' : For Sigmoid Function
+  * 'tanh' : For Tanh Function
+  * 'relu' : For ReLu Function
+
+  **Choices For Output-Activation Function**
+  * 'softmax' : SoftmaxFunction
