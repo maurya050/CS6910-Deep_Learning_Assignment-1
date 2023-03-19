@@ -31,4 +31,6 @@
   * 'Random' 
   * 'Xavier'
   
-## For Running CS6910_Assignment1.ipynb File
+## For Running 'CS6910_Assignment1.ipynb' File
+* To run this file , change  the wandb login key and just run the file from the start .
+* Run from start sequencially, it will give all the outputs which i am getting in my wandb Report.
