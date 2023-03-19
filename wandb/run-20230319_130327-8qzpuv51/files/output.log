@@ -1,0 +1,52 @@
+
+Training Loss:  0.417 Val_loss: 0.217  Training Accuracy:  0.877 Val_accuracy: 0.939  <-:Epoch: 1
+Training Loss:  0.194 Val_loss: 0.163  Training Accuracy:  0.943 Val_accuracy: 0.952  <-:Epoch: 2
+Training Loss:  0.15 Val_loss: 0.141  Training Accuracy:  0.954 Val_accuracy: 0.96  <-:Epoch: 3
+Training Loss:  0.124 Val_loss: 0.129  Training Accuracy:  0.962 Val_accuracy: 0.965  <-:Epoch: 4
+Training Loss:  0.106 Val_loss: 0.124  Training Accuracy:  0.968 Val_accuracy: 0.966  <-:Epoch: 5
+Training Loss:  0.093 Val_loss: 0.118  Training Accuracy:  0.972 Val_accuracy: 0.967  <-:Epoch: 6
+Training Loss:  0.082 Val_loss: 0.115  Training Accuracy:  0.976 Val_accuracy: 0.967  <-:Epoch: 7
+Training Loss:  0.073 Val_loss: 0.115  Training Accuracy:  0.978 Val_accuracy: 0.969  <-:Epoch: 8
+Training Loss:  0.065 Val_loss: 0.121  Training Accuracy:  0.98 Val_accuracy: 0.968  <-:Epoch: 9
+Training Loss:  0.058 Val_loss: 0.125  Training Accuracy:  0.983 Val_accuracy: 0.966  <-:Epoch: 10
+Training Loss:  0.052 Val_loss: 0.129  Training Accuracy:  0.985 Val_accuracy: 0.966  <-:Epoch: 11
+Training Loss:  0.046 Val_loss: 0.128  Training Accuracy:  0.986 Val_accuracy: 0.967  <-:Epoch: 12
+Training Loss:  0.041 Val_loss: 0.134  Training Accuracy:  0.988 Val_accuracy: 0.966  <-:Epoch: 13
+Training Loss:  0.036 Val_loss: 0.144  Training Accuracy:  0.99 Val_accuracy: 0.964  <-:Epoch: 14
+Training Loss:  0.033 Val_loss: 0.152  Training Accuracy:  0.99 Val_accuracy: 0.964  <-:Epoch: 15
+Training Loss:  0.4 Val_loss: 0.213  Training Accuracy:  0.892 Val_accuracy: 0.942  <-:Epoch: 1
+Training Loss:  0.189 Val_loss: 0.158  Training Accuracy:  0.945 Val_accuracy: 0.957  <-:Epoch: 2
+Training Loss:  0.144 Val_loss: 0.137  Training Accuracy:  0.957 Val_accuracy: 0.962  <-:Epoch: 3
+Training Loss:  0.119 Val_loss: 0.125  Training Accuracy:  0.965 Val_accuracy: 0.965  <-:Epoch: 4
+Training Loss:  0.102 Val_loss: 0.118  Training Accuracy:  0.97 Val_accuracy: 0.966  <-:Epoch: 5
+Training Loss:  0.089 Val_loss: 0.114  Training Accuracy:  0.975 Val_accuracy: 0.966  <-:Epoch: 6
+Training Loss:  0.079 Val_loss: 0.113  Training Accuracy:  0.978 Val_accuracy: 0.967  <-:Epoch: 7
+Training Loss:  0.07 Val_loss: 0.113  Training Accuracy:  0.98 Val_accuracy: 0.967  <-:Epoch: 8
+Training Loss:  0.063 Val_loss: 0.114  Training Accuracy:  0.982 Val_accuracy: 0.967  <-:Epoch: 9
+Training Loss:  0.057 Val_loss: 0.116  Training Accuracy:  0.985 Val_accuracy: 0.967  <-:Epoch: 10
+Training Loss:  0.052 Val_loss: 0.118  Training Accuracy:  0.986 Val_accuracy: 0.967  <-:Epoch: 11
+Training Loss:  0.047 Val_loss: 0.121  Training Accuracy:  0.988 Val_accuracy: 0.967  <-:Epoch: 12
+Training Loss:  0.043 Val_loss: 0.125  Training Accuracy:  0.989 Val_accuracy: 0.966  <-:Epoch: 13
+Training Loss:  0.039 Val_loss: 0.129  Training Accuracy:  0.99 Val_accuracy: 0.964  <-:Epoch: 14
+Training Loss:  0.035 Val_loss: 0.134  Training Accuracy:  0.992 Val_accuracy: 0.964  <-:Epoch: 15
+Training Loss:  0.476 Val_loss: 0.231  Training Accuracy:  0.869 Val_accuracy: 0.932  <-:Epoch: 1
+Training Loss:  0.218 Val_loss: 0.181  Training Accuracy:  0.938 Val_accuracy: 0.945  <-:Epoch: 2
+Training Loss:  0.175 Val_loss: 0.156  Training Accuracy:  0.949 Val_accuracy: 0.954  <-:Epoch: 3
+Training Loss:  0.148 Val_loss: 0.141  Training Accuracy:  0.956 Val_accuracy: 0.961  <-:Epoch: 4
+Training Loss:  0.128 Val_loss: 0.132  Training Accuracy:  0.962 Val_accuracy: 0.963  <-:Epoch: 5
+Training Loss:  0.113 Val_loss: 0.124  Training Accuracy:  0.966 Val_accuracy: 0.965  <-:Epoch: 6
+Training Loss:  0.101 Val_loss: 0.118  Training Accuracy:  0.97 Val_accuracy: 0.967  <-:Epoch: 7
+Training Loss:  0.092 Val_loss: 0.114  Training Accuracy:  0.973 Val_accuracy: 0.968  <-:Epoch: 8
+Training Loss:  0.083 Val_loss: 0.112  Training Accuracy:  0.975 Val_accuracy: 0.968  <-:Epoch: 9
+Training Loss:  0.077 Val_loss: 0.111  Training Accuracy:  0.977 Val_accuracy: 0.969  <-:Epoch: 10
+Training Loss:  0.07 Val_loss: 0.11  Training Accuracy:  0.979 Val_accuracy: 0.969  <-:Epoch: 11
+Training Loss:  0.065 Val_loss: 0.11  Training Accuracy:  0.981 Val_accuracy: 0.97  <-:Epoch: 12
+Training Loss:  0.06 Val_loss: 0.11  Training Accuracy:  0.982 Val_accuracy: 0.97  <-:Epoch: 13
+Training Loss:  0.056 Val_loss: 0.109  Training Accuracy:  0.984 Val_accuracy: 0.97  <-:Epoch: 14
+Training Loss:  0.052 Val_loss: 0.111  Training Accuracy:  0.985 Val_accuracy: 0.97  <-:Epoch: 15
+Model-1 Test Accuracy:- 0.9655
+Model-2 Test Accuracy:- 0.9659
+Model-3 Test Accuracy:- 0.9673
+Create sweep with ID: l8gb2vl6
+Sweep URL: https://wandb.ai/cs22m083/CS6910_Assignment_1_/sweeps/l8gb2vl6
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

@@ -10,3 +10,5 @@ Training Loss:  0.294 Val_loss: 0.365  Training Accuracy:  0.891 Val_accuracy: 0
 Training Loss:  0.285 Val_loss: 0.363  Training Accuracy:  0.894 Val_accuracy: 0.87  <-:Epoch: 9
 Training Loss:  0.277 Val_loss: 0.363  Training Accuracy:  0.897 Val_accuracy: 0.87  <-:Epoch: 10
 Training accuracy 0.87
+Validation Loss: 0.363 Validation Accuracy: 0.87
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.

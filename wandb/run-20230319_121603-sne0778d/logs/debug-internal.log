@@ -1,0 +1,1573 @@
+2023-03-19 12:16:03,134 INFO    StreamThr :18400 [internal.py:wandb_internal():87] W&B internal server running at pid: 18400, started at: 2023-03-19 12:16:03.111433
+2023-03-19 12:16:03,141 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status
+2023-03-19 12:16:03,144 INFO    WriterThread:18400 [datastore.py:open_for_write():85] open: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\run-sne0778d.wandb
+2023-03-19 12:16:03,150 DEBUG   SenderThread:18400 [sender.py:send():336] send: header
+2023-03-19 12:16:03,168 DEBUG   SenderThread:18400 [sender.py:send():336] send: run
+2023-03-19 12:16:03,937 INFO    SenderThread:18400 [dir_watcher.py:__init__():216] watching files in: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files
+2023-03-19 12:16:03,937 INFO    SenderThread:18400 [sender.py:_start_run_threads():1067] run started: sne0778d with start time 1679208363.085429
+2023-03-19 12:16:03,937 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: summary_record
+2023-03-19 12:16:03,938 INFO    SenderThread:18400 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-19 12:16:03,945 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: check_version
+2023-03-19 12:16:03,946 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: check_version
+2023-03-19 12:16:04,047 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: run_start
+2023-03-19 12:16:04,064 DEBUG   HandlerThread:18400 [system_info.py:__init__():31] System info init
+2023-03-19 12:16:04,064 DEBUG   HandlerThread:18400 [system_info.py:__init__():46] System info init done
+2023-03-19 12:16:04,064 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 12:16:04,065 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 12:16:04,065 INFO    HandlerThread:18400 [system_monitor.py:probe():172] Collecting system info
+2023-03-19 12:16:04,073 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 12:16:04,074 DEBUG   HandlerThread:18400 [system_info.py:probe():195] Probing system
+2023-03-19 12:16:04,075 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 12:16:04,076 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 12:16:04,090 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 12:16:04,095 DEBUG   HandlerThread:18400 [system_info.py:_probe_git():180] Probing git
+2023-03-19 12:16:04,177 DEBUG   HandlerThread:18400 [system_info.py:_probe_git():188] Probing git done
+2023-03-19 12:16:04,177 DEBUG   HandlerThread:18400 [system_info.py:probe():241] Probing system done
+2023-03-19 12:16:04,177 DEBUG   HandlerThread:18400 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-03-19T06:46:04.074842', 'startedAt': '2023-03-19T06:46:03.069035', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/maurya050/CS6910-Deep_Learning_Assignment-1.git', 'commit': '0f38f6281ed828b050037a6ef9650a44c24457f1'}, 'email': 'mauryashivam050@gmail.com', 'root': 'C:/Users/Shivam Maurya/OneDrive/Desktop/IIT_MADRAS/Deep Learning/assignment 1/CS6910-Deep_Learning_Assignment-1', 'host': 'LAPTOP-DEGE94G6', 'username': 'Shivam Maurya', 'executable': 'C:\\Anaconda\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2918.0, 'min': 0.0, 'max': 2918.0}, 'cpu_freq_per_core': [{'current': 2918.0, 'min': 0.0, 'max': 2918.0}], 'disk': {'total': 833.1318321228027, 'used': 288.7163543701172}, 'memory': {'total': 15.755851745605469}}
+2023-03-19 12:16:04,177 INFO    HandlerThread:18400 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-19 12:16:04,177 INFO    HandlerThread:18400 [system_monitor.py:probe():185] Publishing system info
+2023-03-19 12:16:04,177 DEBUG   HandlerThread:18400 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-19 12:16:04,180 DEBUG   HandlerThread:18400 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-19 12:16:04,180 DEBUG   HandlerThread:18400 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-19 12:16:04,946 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\requirements.txt
+2023-03-19 12:16:04,946 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\conda-environment.yaml
+2023-03-19 12:16:04,947 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\wandb-summary.json
+2023-03-19 12:16:14,629 DEBUG   HandlerThread:18400 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-19 12:16:14,630 INFO    HandlerThread:18400 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-19 12:16:14,631 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:14,631 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:14,631 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:14,631 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:14,632 DEBUG   SenderThread:18400 [sender.py:send():336] send: files
+2023-03-19 12:16:14,632 INFO    SenderThread:18400 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-19 12:16:14,654 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 12:16:14,654 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 12:16:14,957 DEBUG   SenderThread:18400 [sender.py:send():336] send: telemetry
+2023-03-19 12:16:15,042 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\conda-environment.yaml
+2023-03-19 12:16:15,043 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\wandb-metadata.json
+2023-03-19 12:16:15,506 INFO    wandb-upload_0:18400 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpka0nkkavwandb\wihg4905-wandb-metadata.json
+2023-03-19 12:16:15,581 DEBUG   SenderThread:18400 [sender.py:send():336] send: files
+2023-03-19 12:16:15,581 INFO    SenderThread:18400 [sender.py:_save_file():1321] saving file media\images\Validation Loss per epoch for Squared v/s CrossEntropy Loss _0_c490ef72e7ee43e00cd4.png with policy now
+2023-03-19 12:16:15,582 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-19 12:16:15,584 DEBUG   SenderThread:18400 [sender.py:send():336] send: history
+2023-03-19 12:16:15,584 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: summary_record
+2023-03-19 12:16:15,587 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: pause
+2023-03-19 12:16:15,588 INFO    HandlerThread:18400 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-19 12:16:15,588 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 12:16:15,589 INFO    SenderThread:18400 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-19 12:16:15,589 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 12:16:15,590 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 12:16:15,590 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 12:16:15,590 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 12:16:15,590 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 12:16:15,590 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 12:16:15,590 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 12:16:15,591 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:16:16,056 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\wandb-summary.json
+2023-03-19 12:16:16,056 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\media\images\Validation Loss per epoch for Squared v\s CrossEntropy Loss _0_c490ef72e7ee43e00cd4.png
+2023-03-19 12:16:16,056 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\media\images
+2023-03-19 12:16:16,057 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\media
+2023-03-19 12:16:16,057 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\media\images\Validation Loss per epoch for Squared v
+2023-03-19 12:16:16,383 INFO    wandb-upload_0:18400 [upload_job.py:push():138] Uploaded file C:\Users\SHIVAM~1\AppData\Local\Temp\tmpka0nkkavwandb\ftk5cwe5-media/images/Validation Loss per epoch for Squared v/s CrossEntropy Loss _0_c490ef72e7ee43e00cd4.png
+2023-03-19 12:16:19,626 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:24,652 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:29,650 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:29,679 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:34,681 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:34,715 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:35,215 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\config.yaml
+2023-03-19 12:16:39,715 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:40,110 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:44,747 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:45,128 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:49,787 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:50,153 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:54,825 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:16:55,188 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:16:59,870 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:00,219 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:04,879 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:05,242 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:09,089 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: resume
+2023-03-19 12:17:09,089 INFO    HandlerThread:18400 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-19 12:17:09,089 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 12:17:09,090 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 12:17:09,095 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 12:17:09,096 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 12:17:09,097 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 12:17:09,109 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 12:17:09,537 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:17:09,902 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:11,129 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:11,553 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:17:14,936 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:16,156 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:19,966 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:21,182 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:25,008 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:26,207 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:30,027 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:31,230 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:33,682 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:17:35,073 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:36,430 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:40,103 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:41,457 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:45,130 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:46,490 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:50,152 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:51,520 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:17:53,806 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:17:55,200 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:17:56,794 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:00,225 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:01,809 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:05,251 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:06,837 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:09,116 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 12:18:09,118 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:18:10,283 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:12,136 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:15,298 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:15,938 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:18:18,034 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:20,326 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:23,076 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:25,368 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:28,110 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:30,398 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:33,141 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:35,447 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:38,085 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:18:38,508 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:39,121 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:18:40,478 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:44,162 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:45,550 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:49,188 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:50,570 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:54,205 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:18:55,586 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:18:58,214 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:18:59,310 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:00,602 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:04,347 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:05,624 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:09,130 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:19:10,131 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:10,649 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:15,144 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:15,663 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:18,323 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:19:20,568 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:20,675 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:25,575 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:25,695 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:30,596 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:30,718 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:35,634 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:35,757 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:38,519 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:19:39,132 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:19:40,787 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:41,138 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:45,787 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:46,167 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:50,828 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:51,192 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:19:55,853 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:19:56,216 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:00,720 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:20:00,872 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:01,816 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:05,889 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:06,842 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:09,140 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:20:10,919 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:12,150 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:15,965 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:17,166 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:19,890 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:20:20,981 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:22,746 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:26,003 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:27,764 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:31,017 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:32,790 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:36,026 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:37,803 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:39,147 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:20:40,091 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:20:41,060 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:43,571 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:46,081 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:48,586 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:51,091 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:53,597 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:20:56,104 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:20:58,619 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:01,132 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:02,324 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:21:03,940 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:06,171 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:08,973 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:09,156 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:21:11,204 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:14,186 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:16,221 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:19,199 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:21,234 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:24,556 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:21:24,676 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:26,274 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:29,697 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:31,304 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:34,730 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:36,338 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:39,155 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:21:40,161 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:41,363 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:44,724 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:21:45,360 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:46,376 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:50,375 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:51,399 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:21:55,396 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:21:56,414 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:00,408 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:01,431 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:04,922 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:22:05,593 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:06,461 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:08,110 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: pause
+2023-03-19 12:22:08,110 INFO    HandlerThread:18400 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-19 12:22:08,110 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 12:22:08,111 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 12:22:08,112 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 12:22:08,112 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 12:22:08,113 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 12:22:08,113 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 12:22:08,113 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 12:22:08,113 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:22:11,139 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:11,490 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:13,018 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: resume
+2023-03-19 12:22:13,018 INFO    HandlerThread:18400 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-19 12:22:13,018 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 12:22:13,019 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 12:22:13,024 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 12:22:13,025 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 12:22:13,026 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 12:22:13,035 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 12:22:15,011 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:22:16,526 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:17,089 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:21,574 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:22,122 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:26,606 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:27,172 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:31,625 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:32,219 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:35,172 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:22:36,673 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:38,085 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:41,686 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:43,115 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:46,704 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:48,133 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:51,720 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:53,150 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:22:56,767 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:22:57,347 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:22:58,985 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:01,785 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:04,017 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:06,812 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:09,030 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:11,835 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:13,050 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 12:23:13,050 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:23:14,055 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:16,857 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:17,499 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:23:19,337 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:21,882 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:22,628 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: pause
+2023-03-19 12:23:22,628 INFO    HandlerThread:18400 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-19 12:23:22,628 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 12:23:22,630 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 12:23:22,630 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 12:23:22,631 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 12:23:22,631 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 12:23:22,631 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 12:23:22,631 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 12:23:22,631 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:23:24,644 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:26,281 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: resume
+2023-03-19 12:23:26,282 INFO    HandlerThread:18400 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-19 12:23:26,282 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 12:23:26,282 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 12:23:26,288 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 12:23:26,289 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 12:23:26,290 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 12:23:26,300 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 12:23:26,891 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:28,575 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:23:30,341 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:31,924 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:35,385 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:36,934 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:40,442 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:41,989 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:45,469 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:46,788 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:23:47,045 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:51,453 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:52,062 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:23:56,511 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:23:57,104 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:01,557 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:02,162 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:06,611 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:07,202 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:11,035 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:24:12,266 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:12,417 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:17,323 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:17,474 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:22,378 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:22,515 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:26,310 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 12:24:26,311 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:24:27,444 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:28,336 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:31,286 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:24:32,554 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:34,326 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:37,585 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:39,346 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:42,593 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:44,382 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:47,639 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:49,426 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:52,667 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:24:53,515 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:24:55,412 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:24:56,320 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:24:57,713 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:01,363 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:02,757 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:06,418 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:07,824 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:11,475 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:12,857 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:13,750 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:25:16,669 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:17,909 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:21,738 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:22,979 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:26,331 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:25:27,344 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:28,025 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:33,035 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:33,079 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:34,003 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:25:38,122 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:38,152 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:43,167 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:43,197 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:48,212 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:48,243 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:53,256 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:25:53,286 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:56,242 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:25:56,333 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:25:58,348 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:25:58,362 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:03,358 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:03,387 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:08,421 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:08,452 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:13,471 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:13,501 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:17,474 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:26:18,537 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:19,248 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:23,555 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:24,267 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:26,341 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:26:28,626 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:29,378 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:33,685 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:34,447 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:37,725 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:26:38,737 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:40,073 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:43,782 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:45,114 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:48,822 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:50,169 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:53,862 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:55,213 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:26:56,350 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:26:58,907 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:26:59,998 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:27:00,874 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:03,957 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:05,909 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:08,996 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:10,952 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:14,030 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:15,979 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:19,077 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:20,230 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:27:21,921 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:24,117 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:25,555 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: pause
+2023-03-19 12:27:25,555 INFO    HandlerThread:18400 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-19 12:27:25,555 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 12:27:25,556 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 12:27:25,556 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 12:27:25,557 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 12:27:25,557 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 12:27:25,557 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 12:27:25,557 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 12:27:25,558 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:27:27,574 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:29,150 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:30,085 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: resume
+2023-03-19 12:27:30,085 INFO    HandlerThread:18400 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-19 12:27:30,085 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 12:27:30,086 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 12:27:30,092 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 12:27:30,093 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 12:27:30,094 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 12:27:30,103 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 12:27:32,343 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:27:33,120 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:34,180 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:38,161 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:39,227 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:43,185 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:44,257 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:48,234 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:49,291 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:53,879 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:54,320 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:27:54,576 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:27:58,900 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:27:59,354 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:03,947 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:04,386 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:08,970 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:09,425 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:14,464 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:14,757 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:28:14,953 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:19,506 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:19,978 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:24,557 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:25,014 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:29,587 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:30,040 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:30,117 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 12:28:30,118 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:28:34,641 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:35,812 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:36,949 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:28:39,693 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:40,849 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:44,725 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:45,893 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:49,740 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:50,927 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:54,769 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:28:55,963 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:28:58,148 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:28:59,809 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:00,126 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:29:01,130 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:04,831 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:06,156 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:09,860 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:11,192 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:14,911 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:16,216 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:18,270 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:29:19,926 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:21,929 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:24,935 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:26,940 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:29,962 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:30,131 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:29:32,161 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:35,012 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:37,184 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:38,379 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:29:40,063 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:42,755 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:45,096 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:47,775 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:50,141 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:52,813 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:29:55,170 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:29:57,825 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:00,133 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:30:00,194 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:00,531 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:30:03,140 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:05,222 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:08,180 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:10,258 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:13,193 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:15,280 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:18,246 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:20,345 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:20,697 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:30:23,446 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:25,364 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:28,459 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:30,148 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:30:30,378 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:34,172 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:35,386 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:39,195 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:40,450 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:42,917 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:30:44,773 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:45,503 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:49,794 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:50,538 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:54,821 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:30:55,582 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:30:59,854 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:00,157 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:31:00,628 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:03,093 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:31:05,540 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:05,647 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:10,557 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:10,680 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:15,583 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:15,707 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:20,605 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:20,728 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:25,301 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:31:25,753 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:26,026 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:30,162 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:31:30,767 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:31,174 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:35,791 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:36,186 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:40,831 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:41,211 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:45,517 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:31:45,865 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:46,261 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:50,893 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:51,305 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:31:55,918 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:31:56,345 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:00,169 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:32:00,953 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:02,181 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:05,677 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:32:05,995 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:07,533 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:11,031 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:12,554 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:16,064 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:17,583 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:21,093 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:22,631 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:26,120 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:26,865 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:32:28,155 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:30,180 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:32:31,137 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:33,196 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:36,179 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:38,226 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:41,218 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:43,259 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:46,252 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:48,579 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:49,065 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:32:51,313 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:53,590 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:32:56,327 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:32:58,602 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:00,180 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:33:01,370 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:04,217 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:06,398 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:10,095 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:11,268 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:33:11,434 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:15,114 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:16,531 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:20,139 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:21,567 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:25,153 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:26,584 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:30,184 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:30,185 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:33:31,617 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:33,469 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:33:35,561 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:36,651 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:40,601 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:41,678 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:45,632 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:46,696 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:50,648 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:51,710 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:33:55,655 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:33:55,717 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:33:56,737 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:00,199 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:34:01,202 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:01,774 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:06,222 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:06,783 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:11,246 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:11,807 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:16,798 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:16,829 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:17,925 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:34:21,821 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:21,852 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:26,845 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:26,876 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:30,210 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:34:31,921 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:32,226 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:36,945 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:37,276 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:37,519 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: pause
+2023-03-19 12:34:37,519 INFO    HandlerThread:18400 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-19 12:34:37,520 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 12:34:37,521 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 12:34:37,521 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 12:34:37,523 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 12:34:37,524 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 12:34:37,524 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 12:34:37,524 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 12:34:37,525 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:34:40,129 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:34:41,964 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:42,541 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:46,986 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:47,547 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:52,005 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:52,594 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:34:57,059 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:34:57,622 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:02,089 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:02,664 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:07,132 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:07,721 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:12,175 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:12,751 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:17,193 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:17,783 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:22,214 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:22,804 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:27,245 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:27,852 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:32,276 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:32,868 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:37,306 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:37,912 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:42,351 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:42,945 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:47,377 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:47,969 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:52,397 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:53,002 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:35:57,443 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:35:58,033 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:02,481 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:03,056 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:07,501 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:08,091 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:12,547 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:13,135 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:17,582 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:18,178 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:22,623 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:23,212 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:27,648 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:28,239 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:32,678 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:33,281 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:37,711 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:38,312 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:42,768 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:43,360 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:47,814 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:48,417 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:52,865 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:53,484 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:36:57,920 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:36:58,541 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:02,980 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:03,601 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:08,009 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:08,615 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:13,020 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:13,640 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:18,044 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:18,663 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:23,074 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:23,697 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:28,107 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:28,742 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:33,163 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:33,796 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:38,212 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:38,824 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:43,252 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:43,863 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:48,288 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:48,892 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:53,337 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:53,936 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:37:54,985 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: resume
+2023-03-19 12:37:54,985 INFO    HandlerThread:18400 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-19 12:37:54,985 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 12:37:54,986 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 12:37:54,993 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 12:37:54,995 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 12:37:54,995 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 12:37:55,008 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 12:37:56,210 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:37:58,372 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:37:59,028 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:03,404 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:04,061 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:08,444 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:09,105 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:13,469 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:14,138 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:18,507 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:19,414 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:20,381 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:38:23,564 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:24,468 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:28,626 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:29,524 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:33,656 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:34,553 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:38,679 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:39,590 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:42,557 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:38:43,714 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:45,283 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:48,739 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:50,312 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:53,778 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:38:55,022 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 12:38:55,023 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:38:56,027 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:38:58,802 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:01,050 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:03,831 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:06,733 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:39:06,867 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:08,843 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:11,889 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:13,863 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:16,905 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:18,881 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:21,932 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:23,902 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:25,039 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:39:27,053 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:28,936 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:30,981 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:39:32,783 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:33,994 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:37,810 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:39,014 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:42,840 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:44,024 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:47,865 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:49,046 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:53,178 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:39:53,871 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:54,085 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:39:55,044 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:39:59,078 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:39:59,109 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:04,102 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:04,133 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:09,120 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:09,152 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:14,151 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:14,182 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:17,416 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:40:19,215 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:19,521 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:24,242 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:24,548 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:25,054 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:40:29,279 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:30,084 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:34,308 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:35,114 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:39,337 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:40,147 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:44,382 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:45,189 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:45,661 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:40:49,416 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:50,224 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:54,433 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:40:55,061 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:40:56,075 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:40:59,467 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:01,098 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:04,490 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:06,130 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:09,507 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:11,148 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:14,574 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:15,994 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:41:16,627 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:19,585 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:19,586 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:21,659 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:24,619 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:25,075 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:41:27,092 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:29,645 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:32,138 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:34,687 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:37,186 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:39,713 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:42,191 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:43,248 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:41:44,749 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:47,430 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:49,776 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:52,461 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:54,800 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:41:55,089 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:41:58,099 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:41:59,835 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:03,127 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:04,865 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:08,159 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:09,924 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:13,206 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:13,504 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:42:14,983 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:18,244 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:20,010 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:23,271 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:25,034 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:25,095 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:42:29,123 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:30,066 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:34,712 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:35,107 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:35,677 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:42:39,729 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:40,126 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:44,762 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:45,160 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:49,799 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:50,193 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:54,822 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:42:55,096 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:42:55,215 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:42:59,911 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:43:00,263 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:00,644 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:05,302 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:05,684 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:10,320 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:10,701 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:15,330 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:15,724 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:20,366 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:20,760 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:24,127 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:43:25,100 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:43:25,404 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:26,103 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:30,428 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:31,109 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:35,461 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:36,156 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:40,497 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:41,163 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:45,518 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:46,201 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:48,347 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:43:50,543 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:51,971 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:43:55,109 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:43:55,564 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:43:57,124 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:00,590 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:02,152 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:05,612 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:07,177 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:10,628 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:12,205 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:15,677 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:15,678 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:16,636 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:44:17,691 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:20,701 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:22,708 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:25,122 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:44:25,741 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:28,136 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:30,780 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:33,146 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:35,796 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:38,191 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:40,829 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:43,286 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:43,953 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:44:45,857 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:48,299 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:50,865 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:53,310 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:44:55,134 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:44:55,877 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:44:59,151 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:00,898 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:04,169 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:05,926 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:09,200 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:10,188 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:45:10,975 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:14,512 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:16,009 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:19,544 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:21,058 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:24,566 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:25,142 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:45:26,083 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:30,157 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:31,127 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:35,189 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:36,149 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:40,451 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:45:40,740 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:41,182 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:45,747 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:46,215 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:50,785 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:51,240 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:45:55,157 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:45:56,171 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:45:56,248 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:01,201 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:01,277 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:06,236 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:06,311 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:10,689 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:46:11,339 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:12,050 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:16,375 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:17,071 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:21,395 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:22,093 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:25,163 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:46:26,412 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:27,175 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:31,437 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:32,197 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:36,483 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:37,212 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:37,577 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: pause
+2023-03-19 12:46:37,578 INFO    HandlerThread:18400 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-19 12:46:37,578 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 12:46:37,579 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 12:46:37,579 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 12:46:37,579 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 12:46:37,579 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 12:46:37,580 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 12:46:37,580 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 12:46:37,581 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:46:38,915 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:46:41,526 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:42,618 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:46,545 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:47,652 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:51,577 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:52,688 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:46:56,598 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:46:57,720 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:01,633 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:02,754 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:06,654 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:07,792 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:11,673 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:12,828 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:16,721 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:17,857 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:21,753 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:22,877 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:26,779 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:27,904 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:31,790 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:32,914 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:36,837 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:37,944 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:41,535 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: resume
+2023-03-19 12:47:41,536 INFO    HandlerThread:18400 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-19 12:47:41,536 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 12:47:41,536 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 12:47:41,542 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 12:47:41,543 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 12:47:41,543 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 12:47:41,555 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 12:47:41,866 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:42,503 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:47:43,567 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:46,883 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:48,578 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:51,936 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:53,607 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:47:56,996 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:47:58,653 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:02,050 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:02,688 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:48:04,331 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:07,066 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:09,356 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:12,090 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:14,377 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:17,108 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:19,406 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:22,164 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:22,906 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:48:25,270 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:27,229 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:30,305 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:32,249 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:35,331 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:37,289 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:40,353 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:41,570 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 12:48:41,571 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:48:42,356 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:45,089 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:48:45,878 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:47,399 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:50,899 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:52,433 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:48:55,933 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:48:57,483 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:00,976 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:02,515 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:06,771 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:07,261 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:49:07,566 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:11,579 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:49:12,583 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:12,598 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:17,612 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:17,628 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:22,644 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:22,659 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:27,714 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:27,729 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:31,446 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:49:32,766 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:33,251 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:37,795 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:38,266 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:41,579 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:49:42,813 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:43,586 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:47,830 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:48,610 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:51,558 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:49:52,876 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:54,224 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:49:57,951 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:49:59,256 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:02,969 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:04,300 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:07,992 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:09,315 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:11,592 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:50:13,020 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:13,721 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:50:14,689 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:18,030 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:19,702 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:23,051 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:24,730 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:28,085 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:29,756 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:33,112 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:35,575 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:35,851 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:50:38,146 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:40,600 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:41,606 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:50:43,166 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:45,640 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:48,204 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:50,668 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:53,233 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:50:55,699 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:50:58,007 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:50:58,291 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:01,630 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:03,354 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:06,686 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:08,410 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:11,618 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:51:12,631 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:13,470 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:17,825 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:18,253 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:51:18,539 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:22,869 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:23,593 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:27,926 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:28,638 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:32,990 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:33,701 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:38,674 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:38,752 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:39,481 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:51:41,632 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:51:43,812 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:44,667 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:48,863 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:49,718 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:53,916 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:54,770 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:51:58,971 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:51:59,715 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:52:00,599 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:04,027 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:05,653 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:09,081 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:10,706 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:11,638 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:52:14,134 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:16,684 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:19,200 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:19,946 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:52:22,107 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:24,251 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:27,155 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:29,305 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:32,214 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:34,359 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:37,264 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:39,411 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:40,153 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:52:41,652 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:52:42,664 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:44,463 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:47,715 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:49,517 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:52,772 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:54,571 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:52:58,351 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:52:58,351 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:52:59,632 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:03,413 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:04,694 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:08,469 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:09,753 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:11,665 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:53:13,703 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:14,808 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:19,331 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:19,884 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:20,613 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:53:24,391 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:24,946 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:29,456 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:30,010 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:34,518 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:35,072 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:39,860 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:53:40,096 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:40,129 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:41,666 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:53:45,197 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:45,718 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:50,248 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:50,770 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:53:55,298 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:53:55,820 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:00,064 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:54:00,349 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:01,202 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:05,411 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:06,265 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:10,456 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:11,313 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:11,678 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:54:15,528 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:16,744 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:20,585 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:22,298 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:54:22,536 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:25,647 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:27,593 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:30,700 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:32,641 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:35,761 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:37,703 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:40,850 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:41,167 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: pause
+2023-03-19 12:54:41,167 INFO    HandlerThread:18400 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-19 12:54:41,167 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 12:54:41,167 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 12:54:41,167 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 12:54:41,167 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 12:54:41,167 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 12:54:41,167 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 12:54:41,167 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 12:54:41,167 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 12:54:42,537 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 12:54:43,181 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:45,901 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:48,208 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:50,927 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:53,235 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:54:55,951 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:54:58,258 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:00,978 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:03,284 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:06,000 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:08,310 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:11,028 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:13,335 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:16,052 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:18,361 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:21,076 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:23,388 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:26,105 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:28,414 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:31,131 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:33,443 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:36,160 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:38,470 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:41,182 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:43,493 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:46,208 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:48,520 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:51,236 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:53,550 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:55:56,267 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:55:58,578 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:01,296 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:03,606 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:06,321 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:08,629 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:11,359 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:13,667 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:16,379 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:18,688 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:21,403 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:23,712 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:26,439 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:28,751 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:31,475 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:33,791 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:36,515 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:38,829 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:41,550 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:43,861 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:46,583 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:48,892 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:51,609 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:53,919 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:56:56,639 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:56:58,951 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:01,675 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:03,988 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:06,707 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:09,033 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:11,760 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:14,083 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:16,810 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:19,138 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:21,857 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:24,195 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:26,906 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:29,238 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:31,962 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:34,301 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:37,025 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:39,359 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:42,060 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:44,401 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:47,113 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:49,447 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:52,158 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:54,489 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:57:57,191 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:57:59,531 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:02,230 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:04,585 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:07,255 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:09,622 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:12,310 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:14,651 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:17,334 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:19,675 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:22,372 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:24,722 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:27,421 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:29,772 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:32,471 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:34,814 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:37,519 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:39,871 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:42,568 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:44,914 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:47,603 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:49,944 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:52,638 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:58:54,982 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:58:57,680 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:00,013 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:59:02,720 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:05,055 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:59:07,764 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:10,095 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:59:35,340 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:35,660 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:59:40,368 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:40,702 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:59:45,394 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:45,724 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:59:50,415 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:50,746 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 12:59:55,447 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 12:59:55,777 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:04,194 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:04,523 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:09,212 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:09,542 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:14,234 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:14,564 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:19,256 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:19,586 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:24,284 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:24,616 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:29,321 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:29,650 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:34,353 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:34,683 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:39,392 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:39,724 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:44,446 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:44,777 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:49,514 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:49,846 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:54,549 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:54,875 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:00:59,585 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:00:59,915 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:04,630 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:01:04,962 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:09,639 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-19 13:01:10,018 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:10,191 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: resume
+2023-03-19 13:01:10,191 INFO    HandlerThread:18400 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-19 13:01:10,191 INFO    HandlerThread:18400 [system_monitor.py:start():151] Starting system monitor
+2023-03-19 13:01:10,191 INFO    SystemMonitor:18400 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-19 13:01:10,197 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started cpu
+2023-03-19 13:01:10,197 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started disk
+2023-03-19 13:01:10,207 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started memory
+2023-03-19 13:01:10,208 INFO    SystemMonitor:18400 [interfaces.py:start():168] Started network
+2023-03-19 13:01:10,350 DEBUG   SenderThread:18400 [sender.py:send():336] send: telemetry
+2023-03-19 13:01:10,372 DEBUG   SenderThread:18400 [sender.py:send():336] send: exit
+2023-03-19 13:01:10,372 INFO    SenderThread:18400 [sender.py:send_exit():559] handling exit code: 0
+2023-03-19 13:01:10,372 INFO    SenderThread:18400 [sender.py:send_exit():561] handling runtime: 1989
+2023-03-19 13:01:10,377 INFO    SenderThread:18400 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-19 13:01:10,382 INFO    SenderThread:18400 [sender.py:send_exit():567] send defer
+2023-03-19 13:01:10,385 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,385 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-19 13:01:10,385 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,385 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-19 13:01:10,385 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 1
+2023-03-19 13:01:10,385 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,385 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-19 13:01:10,385 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,385 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-19 13:01:10,385 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 2
+2023-03-19 13:01:10,389 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,389 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-19 13:01:10,389 INFO    HandlerThread:18400 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-19 13:01:10,389 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-19 13:01:10,389 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-19 13:01:10,389 DEBUG   SystemMonitor:18400 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-19 13:01:10,389 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined cpu
+2023-03-19 13:01:10,389 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined disk
+2023-03-19 13:01:10,389 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined memory
+2023-03-19 13:01:10,389 INFO    HandlerThread:18400 [interfaces.py:finish():175] Joined network
+2023-03-19 13:01:10,389 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,389 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-19 13:01:10,389 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 3
+2023-03-19 13:01:10,389 DEBUG   SenderThread:18400 [sender.py:send():336] send: stats
+2023-03-19 13:01:10,389 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,389 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-19 13:01:10,389 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 4
+2023-03-19 13:01:10,397 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,397 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-19 13:01:10,397 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 5
+2023-03-19 13:01:10,397 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,397 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-19 13:01:10,397 DEBUG   SenderThread:18400 [sender.py:send():336] send: summary
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-19 13:01:10,397 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 6
+2023-03-19 13:01:10,397 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,397 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-19 13:01:10,397 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,397 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-19 13:01:10,413 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:10,556 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\wandb-summary.json
+2023-03-19 13:01:10,800 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 7
+2023-03-19 13:01:10,800 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:10,800 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-19 13:01:10,800 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:10,802 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-19 13:01:11,380 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:11,571 INFO    Thread-45 :18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\config.yaml
+2023-03-19 13:01:12,220 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 8
+2023-03-19 13:01:12,220 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:12,220 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:12,220 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-19 13:01:12,220 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:12,220 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-19 13:01:12,220 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 9
+2023-03-19 13:01:12,220 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:12,220 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-19 13:01:12,220 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:12,220 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-19 13:01:12,220 INFO    SenderThread:18400 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-19 13:01:12,394 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:12,585 INFO    SenderThread:18400 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 13:01:12,585 INFO    SenderThread:18400 [dir_watcher.py:finish():392] scan: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files
+2023-03-19 13:01:12,585 INFO    SenderThread:18400 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\conda-environment.yaml conda-environment.yaml
+2023-03-19 13:01:12,585 INFO    SenderThread:18400 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\config.yaml config.yaml
+2023-03-19 13:01:12,585 INFO    SenderThread:18400 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log output.log
+2023-03-19 13:01:12,600 INFO    SenderThread:18400 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\requirements.txt requirements.txt
+2023-03-19 13:01:12,617 INFO    SenderThread:18400 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\wandb-metadata.json wandb-metadata.json
+2023-03-19 13:01:12,617 INFO    SenderThread:18400 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\wandb-summary.json wandb-summary.json
+2023-03-19 13:01:12,633 INFO    SenderThread:18400 [dir_watcher.py:finish():406] scan save: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\media\images\Validation Loss per epoch for Squared v\s CrossEntropy Loss _0_c490ef72e7ee43e00cd4.png media\images\Validation Loss per epoch for Squared v\s CrossEntropy Loss _0_c490ef72e7ee43e00cd4.png
+2023-03-19 13:01:12,633 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 10
+2023-03-19 13:01:12,633 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:12,633 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:12,648 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-19 13:01:12,648 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:12,648 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-19 13:01:12,648 INFO    SenderThread:18400 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-19 13:01:13,410 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:13,412 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:13,569 INFO    wandb-upload_0:18400 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\conda-environment.yaml
+2023-03-19 13:01:13,617 INFO    wandb-upload_2:18400 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\output.log
+2023-03-19 13:01:13,632 INFO    wandb-upload_3:18400 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\requirements.txt
+2023-03-19 13:01:13,632 INFO    wandb-upload_4:18400 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\wandb-summary.json
+2023-03-19 13:01:14,424 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:14,424 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:15,437 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:15,437 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:15,437 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:16,449 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:16,449 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:17,461 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:17,461 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:18,471 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:18,472 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:19,482 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:19,482 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:20,494 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:20,494 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:20,494 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:21,505 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:21,505 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:22,517 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:22,517 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:23,524 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:23,525 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:24,527 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:24,527 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:25,535 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:25,535 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:25,535 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:26,544 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:26,544 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:27,555 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:27,555 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:28,568 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:28,568 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:29,580 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:29,580 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:30,590 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:30,591 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:30,591 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:31,600 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:31,600 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:32,119 ERROR   wandb-upload_1:18400 [internal_api.py:upload_file():2004] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/cs22m083/CS6910_Assignment_1_/sne0778d/config.yaml?Expires=1679297473&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=j7B8kvhaVLFB5RGDIclfVny1%2Fm%2FD%2Bdpuk%2Fu5wzP2C4evH8%2Blju%2FnZurC0cI6vznz8MBWVyYvxD%2F5qQ60fj%2BM75%2BzYk%2BWwASz1M2N2pHQflv7oWUbBvx4lh6sJuKPysn1yPHxrCSt%2B9CTLoi2CGte5dpbePnAsrkddeDdzbtDizbnWJymazNhBWZZUUcY7hQ6%2Fkf1ySu3Gc5kWKXU2d6xQI%2BfNsDp9wRuEor2l6NrMgDg4FQmDx5IL36%2BwxEZadkapc34X6Onlk6cxe42m7eOwV%2Btxy7avLe0v%2FVzQRUw2eDTxu99nvXyXW5KuInqftNYdMRsjnWughgj686Gn3Zflw%3D%3D: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None))
+2023-03-19 13:01:32,119 ERROR   wandb-upload_1:18400 [internal_api.py:upload_file():2006] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '484'}
+2023-03-19 13:01:32,119 ERROR   wandb-upload_1:18400 [internal_api.py:upload_file():2008] upload_file response body: 
+2023-03-19 13:01:32,611 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:32,611 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:33,621 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:33,621 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:33,904 INFO    wandb-upload_1:18400 [upload_job.py:push():138] Uploaded file C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\files\config.yaml
+2023-03-19 13:01:34,110 INFO    Thread-44 :18400 [sender.py:transition_state():587] send defer: 11
+2023-03-19 13:01:34,110 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:34,110 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-19 13:01:34,110 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:34,110 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-19 13:01:34,110 INFO    SenderThread:18400 [file_pusher.py:join():167] waiting for file pusher
+2023-03-19 13:01:34,110 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 12
+2023-03-19 13:01:34,110 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:34,110 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-19 13:01:34,110 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:34,110 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-19 13:01:34,635 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:35,015 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 13
+2023-03-19 13:01:35,015 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:35,015 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:35,018 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-19 13:01:35,018 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:35,018 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-19 13:01:35,018 INFO    SenderThread:18400 [sender.py:transition_state():587] send defer: 14
+2023-03-19 13:01:35,018 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 13:01:35,022 DEBUG   SenderThread:18400 [sender.py:send():336] send: final
+2023-03-19 13:01:35,022 INFO    HandlerThread:18400 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-19 13:01:35,022 DEBUG   SenderThread:18400 [sender.py:send():336] send: footer
+2023-03-19 13:01:35,022 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: defer
+2023-03-19 13:01:35,022 INFO    SenderThread:18400 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-19 13:01:35,022 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 13:01:35,022 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: server_info
+2023-03-19 13:01:35,022 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-19 13:01:35,022 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 13:01:35,022 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-19 13:01:35,022 DEBUG   SenderThread:18400 [sender.py:send_request():363] send_request: server_info
+2023-03-19 13:01:35,677 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 13:01:35,694 DEBUG   HandlerThread:18400 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-19 13:01:35,695 INFO    HandlerThread:18400 [handler.py:finish():841] shutting down handler
+2023-03-19 13:01:36,703 INFO    SenderThread:18400 [sender.py:finish():1493] shutting down sender
+2023-03-19 13:01:36,703 INFO    WriterThread:18400 [datastore.py:close():299] close: C:\Users\Shivam Maurya\OneDrive\Desktop\IIT_MADRAS\Deep Learning\assignment 1\CS6910-Deep_Learning_Assignment-1\wandb\run-20230319_121603-sne0778d\run-sne0778d.wandb
+2023-03-19 13:01:36,703 INFO    SenderThread:18400 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-19 13:01:36,703 INFO    SenderThread:18400 [file_pusher.py:join():167] waiting for file pusher
