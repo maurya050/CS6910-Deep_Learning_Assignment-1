@@ -1,5 +1,8 @@
 # CS6910:Fundamentals of Deep Learning_Assignment-1
-**Assignment_1 submission for the course Fundamentals of Deep Learning (CS6910).**
+## Feedforward Neural Network with Backpropagation
+*This repository contains the implementation of a feedforward neural network and the associated backpropagation algorithm using only the numpy library. The network is designed to classify images from the Fashion-MNIST dataset into 10 different classes.*
+### Introduction:
+*In this project, we implement a feedforward neural network from scratch without using any automatic differentiation libraries. We train the network using the Fashion-MNIST dataset, which consists of grayscale images of clothing items belonging to 10 different classes.*
 ## For Running train.py file
 * At line-19 : Change the wandb login key to and start the implementation.
 * Project Name (wandb_project) default set to 'CS6910_Assignment_1'
